@@ -1,101 +1,202 @@
-## Setting up your font
+මොට්ට ටයිප් වන් / Motta Type One
+==============
 
-### New repositories
+[![Build][badge-build]][link-build]
+[![Fontspector QA][badge-qa]][link-qa]
+[![Release][badge-release]][link-release]
+[![License: OFL 1.1][badge-license]][link-license]
 
-1. Hit the green button above ("Use this template") to create your own repository.
+[badge-build]: https://github.com/mooniak/motta-type-one-font/actions/workflows/build.yaml/badge.svg?branch=dev
+[badge-qa]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fsrc.mooniak.com%2Fmotta-type-one-font%2Fbuild.json&query=%24.qa.pass_rate&suffix=%25&label=fontspector%20QA%20(dev%20build)&color=informational
+[badge-release]: https://img.shields.io/github/v/release/mooniak/motta-type-one-font?label=release
+[badge-license]: https://img.shields.io/badge/license-OFL--1.1-green
+[link-build]: https://github.com/mooniak/motta-type-one-font/actions/workflows/build.yaml
+[link-qa]: https://src.mooniak.com/motta-type-one-font/reports/fontspector/fontspector-report.html
+[link-release]: https://github.com/mooniak/motta-type-one-font/releases
+[link-license]: OFL.txt
 
-2. Clone the repository, and replace the font sources in the `sources` directory with your own font sources. These sources may be either in Glyphs format or UFO/Designspace formats.\
-   \
-   Unlike many open source distributors, Google Fonts is **curated**. Fonts shipped to the platform have to match the [Google Fonts Specifications](https://github.com/googlefonts/gf-docs/tree/main/Spec). Please read them carefully.\
-   \
-   _(The template ships a tiny generic placeholder — "My Font", a 2-master Weight variable font with a handful of blank-slate glyphs (`.notdef`, space, H, I, l, O) as `sources/MyFont.designspace` + UFOs. It exists only so the build pipeline works out of the box; replace it with your own sources.)_
+Motta Type One is a heavy, rounded Sinhala display typeface designed by Damith Welikala and
+published by [Mooniak](https://mooniak.com/) as a free font under the SIL Open Font License.
 
-3. Then reference the sources in the file `sources/config.yaml`, as well as making any other changes you would like to make based on the instructions in the [Google Fonts Builder documentation](https://github.com/googlefonts/gftools/blob/main/Lib/gftools/builder/__init__.py).
+*Motta* (මොට්ට) means blunt. The letters are built from thick, soft-ended strokes with small
+counters and almost no contrast, so they hold together as dark, friendly shapes at large sizes:
+headlines, posters, signage, packaging and titles. It is a single Regular weight.
 
-4. Add yourself to the `AUTHORS.txt` and `CONTRIBUTORS.txt` files.
+![Motta Type One specimen](documentation/image1.png)
+![Motta Type One character set](documentation/image2.png)
 
-5. Fill out `documentation/ARTICLE.en_us.html` with a description of your font.
+## Get the font
 
-6. Rewrite this Readme file according to the recommendations in the [Google Fonts Guide](https://googlefonts.github.io/gf-guide/readmefile.html).
+- **Download:** the [Releases](https://github.com/mooniak/motta-type-one-font/releases) page. A
+  pre-release named `canary` is rebuilt from every push to `dev`; it is the latest development
+  work and may be broken, so don't use it in production. Its family name ends in `CANARY` so it
+  can be installed next to a release.
+- **Proofs and QA:** the latest development build, with type proofs and the full Fontspector
+  report, is at [src.mooniak.com/motta-type-one-font](https://src.mooniak.com/motta-type-one-font/).
+- **Build it yourself:** see [Building the fonts from source](#building-the-fonts-from-source).
 
-7. Add and commit these files to git.
+## Font data
 
-8. **At the command line, run `make customize` to ensure that all the paths and URLs in your project are correct**. This will also push your changes to GitHub.
+| | |
+|---|---|
+| **Version** | 1.000 |
+| **Script** | Sinhala (no Latin letters; ASCII digits and punctuation only) |
+| **Styles** | Regular |
+| **Formats** | TTF, OTF and WOFF2 (`MottaTypeOne-Regular.*`) |
+| **Glyphs** | 469 (111 mapped to Unicode code points; the rest are conjuncts, rakar/yansaya forms and other glyphs used by OpenType features) |
+| **Units per em** | 1000 |
+| **Key heights** | x-height 385, ascender 770, descender −193 |
+| **Vertical metrics** | ascent 900, descent −300, line gap 0 (`hhea`, typo and win; `USE_TYPO_METRICS` on) |
+| **File size** | about 230 KB (TTF), 85 KB (OTF), 70 KB (WOFF2) |
+| **Source format** | [Glyphs](https://glyphsapp.com/) 3 package (`sources/MottaTypeOne.glyphspackage`) |
+| **License** | [SIL Open Font License 1.1](OFL.txt) |
 
-9. **Set up your GitHub pages site**: go to your repository's Settings > Pages and ensure that the Build and deployment "Source" drop-down is set to "GitHub Actions". (Any preexisting Actions jobs can be re-run to publish now, or the deployment triggered also manually from the Actions tab. Subsequent commits will publish the proofs and QA results automatically.)
+### Character coverage
 
-10. If GitHub Actions has successfully built the family, you will find the font binaries in the Actions tab. The official GitHub Actions documentation provides further [information](https://docs.github.com/en/actions/managing-workflow-runs/downloading-workflow-artifacts).
+| Range | Encoded |
+|---|---|
+| Sinhala (U+0D80–0DFF) | 80 of 91. Not yet: candrabindu U+0D81 and the Sinhala Lith digits U+0DE6–0DEF |
+| Basic Latin | space, digits 0–9 and `! " # $ % & ' ( ) * + , - . /` |
+| Other | no-break space, ZWNJ, ZWJ, dotted circle (U+25CC) |
 
-### Updating a repository
+### OpenType features
 
-1. To update your font repository to bring in the latest best-practices from the Google Fonts Project Template, run `make update-project-template` from the command line. This requires the `node` Javascript engine to be installed; if you don't have that already, [follow these instructions](https://nodejs.org/en/download/package-manager#macos) to install on your platform.
+| Layout table | Features |
+|---|---|
+| `GSUB` | `akhn` (conjuncts) `vatu` (rakar, yansaya) `pstf` `abvs` (consonant + vowel-sign ligatures) `blws` `psts` |
+| `GPOS` | `dist` |
 
-2. To update the Python build chain which builds your fonts, run `make update` and `git add`/`git commit` the new `requirements.txt`.
+Not shipped yet, because their glyphs are not drawn: repaya (`rphf`), the conjoined da-forms
+(`ss01`), and the virama forms of gha + rakar, jha and nga. Those sequences fall back to visible
+letters with a separate virama; see [CHECKLIST.md](CHECKLIST.md).
 
-## More things to do
+## Repository structure
 
-- `CustomFilter_GF_Latin_All.plist` in `sources` is practical if you use GlyphsApp, you can remove it otherwise. Placed in the same directory as the your `.glyphs` file, it will allow Glyphs to display a filter list for all GF Latin glyphsets in app. To make sure your font supports the minimal set required by Google Fonts, look at the `GF_Latin_Core` filter list. Find other glyphsets and list formats for different software in [GF Glyphsets repository](https://github.com/googlefonts/glyphsets/tree/main/GF_glyphsets).
+| Path | What it is |
+|---|---|
+| `sources/MottaTypeOne.glyphspackage` | The font source: glyphs, kerning and OpenType feature code, as a Glyphs 3 package |
+| `sources/config.yaml` | Build configuration read by [gftools](https://github.com/googlefonts/gftools) |
+| `fontpackage.json` | Mooniak catalogue metadata (name, designer, tier, channels) |
+| `Makefile` | Build, test and proof targets (see below) |
+| `requirements.in`, `requirements.txt` | Python dependencies: the top-level list, and the pinned set used for builds |
+| `fonts/`, `out/`, `_site/` | Build output, QA/proof reports and the proof site (created by `make`; not committed) |
+| `documentation/` | Specimen images and their DrawBot scripts, the font description (`ARTICLE.en_us.html`), and `rename-map.tsv` (old glyph name → LankaGlyphset name) |
+| `scripts/` | Helper scripts used by the Makefile and CI (from the Mooniak project template) |
+| `CHECKLIST.md` | What's done and what's left before the font is complete |
+| `OFL.txt`, `AUTHORS.txt`, `CONTRIBUTORS.txt` | License and credits |
 
-- Once you are happy with your font, add promotional assets in the documentation directory. Make it different from the pic you use in this README. You can get inspired by existing @googlefonts posts as: https://x.com/googlefonts/status/1415562928657416192.
+Glyph names follow the [LankaGlyphset](https://github.com/mooniak/lanka-glyphsets) standard
+(`ka-sinh`, `isign-sinh`, `kRa-sinh`…).
 
-- Google Fonts uses GitHub Releases to manage font families. If you feel your font project has hit a milestone, you must create a new release for it. In order to do this, go to the releases page and hit the "Draft a new release" button. You must provide a tag number and title which can only be a decimal number e.g. `0.100`, `1.000` etc. For the body text, mention what has changed since the last release. Once you are done, hit the "Publish release" button. Here is an example which fulfills the requirements, https://github.com/m4rc1e/test-ufr-family/releases/tag/2.019. For more info regarding GitHub release, please see the official GitHub Release [documentation](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository). **Please note that GitHub Actions must be able to build the fonts before you can make a release. Once you have made a release, the fonts and tests assets will be attached to the release automatically. This may take a while since the fonts and tests will be built from scratch so please be patient.**
+## Building the fonts from source
 
----
+Building needs only free, open-source tools. You do **not** need Glyphs to build, only to edit
+the source.
 
-# My Font
+### Requirements
 
-[![][Fontspector]](https://mooniak.github.io/mooniak-font-project-template.git/fontspector/fontspector-report.html)
-[![][OpenType]](https://mooniak.github.io/mooniak-font-project-template.git/fontspector/fontspector-report.html)
-[![][Universal]](https://mooniak.github.io/mooniak-font-project-template.git/fontspector/fontspector-report.html)
-[![][Google Fonts]](https://mooniak.github.io/mooniak-font-project-template.git/fontspector/fontspector-report.html)
-[![][Glyphset]](https://mooniak.github.io/mooniak-font-project-template.git/fontspector/fontspector-report.html)
+- **macOS or Linux** (on Windows, use [WSL](https://learn.microsoft.com/windows/wsl/)).
+- **Python 3.12** with `venv` and `pip`, the version CI uses. The dependencies in
+  `requirements.txt` are pinned, and other Python versions may fail to install them.
+- **Make** and **git**, and network access for the first build.
 
-[Fontspector]: https://img.shields.io/endpoint?url=https%3A%2F%2Fmooniak.github.io%2Fmooniak-font-project-template.git%2Fbadges%2FFontspectorQA.json
-[OpenType]: https://img.shields.io/endpoint?url=https%3A%2F%2Fmooniak.github.io%2Fmooniak-font-project-template.git%2Fbadges%2FOpentypeSpecificationChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fmooniak.github.io%2Fmooniak-font-project-template.git%2Fbadges%2FUniversalProfileChecks.json
-[Google Fonts]: https://img.shields.io/endpoint?url=https%3A%2F%2Fmooniak.github.io%2Fmooniak-font-project-template.git%2Fbadges%2FFontFileChecks.json
-[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fmooniak.github.io%2Fmooniak-font-project-template.git%2Fbadges%2FOutlineCorrectnessChecks.json
-[Glyphset]: https://img.shields.io/endpoint?url=https%3A%2F%2Fmooniak.github.io%2Fmooniak-font-project-template.git%2Fbadges%2FGlyphsetChecks.json
+### Build
 
-Description of your font goes here. We recommend to start with a very short presentation line (the kind you would use on twitter to present your project for example), and then add as much details as necesary :-) Origin of the project, idea of usage, concept of creation… but also number of masters, axes, character sets, etc.
+```sh
+git clone https://github.com/mooniak/motta-type-one-font.git
+cd motta-type-one-font
+python3.12 -m venv venv
+make build
+```
 
-Don't hesitate to create images!
+`make build` installs the pinned dependencies into `venv/` (first run only), then runs
+[`gftools builder`](https://github.com/googlefonts/gftools) on `sources/config.yaml`, which
+compiles the source with fontmake, autohints the TTF, fixes it with `gftools-fix-font` and
+compresses a WOFF2. Output:
 
-![Sample Image](documentation/image1.png)
-![Sample Image](documentation/image2.png)
+```
+fonts/ttf/MottaTypeOne-Regular.ttf
+fonts/otf/MottaTypeOne-Regular.otf
+fonts/webfonts/MottaTypeOne-Regular.woff2
+```
 
-## About
+Each rebuild deletes and recreates `fonts/`. `make` compares timestamps against the package
+folder, and editing a file inside the package doesn't change the folder's timestamp, so after
+editing the source run `rm build.stamp && make build`.
 
-Description of you and/or organisation goes here.
+### Quality checks and proofs
 
-## Building
+These need two extra tools, installed with
+[`cargo binstall`](https://github.com/cargo-bins/cargo-binstall):
 
-Fonts are built automatically by GitHub Actions — take a look in the "Actions" tab for the latest build.
+```sh
+cargo binstall fontspector     # for `make test`
+cargo binstall diffenator3     # for `make proof`
+```
 
-If you want to build fonts manually on your own computer:
+| Command | What it does |
+|---|---|
+| `make test` | Runs [Fontspector](https://github.com/fonttools/fontspector) with the Google Fonts profile (this is a free font) and writes HTML and Markdown reports to `out/fontspector/`. It doesn't stop on failures; read the report. |
+| `make proof` | Runs `diff3proof` and writes an HTML proof to `out/proof/`. |
+| `make pages` | Builds the stage-gated proof site into `_site/` (needs `make manifest` first for the QA verdict). |
+| `make images` | Re-renders `documentation/image1.png` and `image2.png`. |
+| `make clean` | Deletes `venv/`. |
 
-- `make build` will produce font files.
-- `make test` will run [Fontspector](https://fonttools.github.io/fontspector/)'s quality assurance tests.
-- `make proof` will generate HTML proof files.
+### Build badges
 
-The proof files and QA tests are also available automatically via GitHub Actions — look at https://mooniak.github.io/mooniak-font-project-template.git.
+The badges at the top come from the automated build, which runs on every push to `dev`:
+
+- **Build** is the status of the latest
+  [GitHub Actions run](https://github.com/mooniak/motta-type-one-font/actions/workflows/build.yaml)
+  (build, QA, proofs, publishing).
+- **Fontspector QA** is the pass rate of the Google Fonts profile on that same build, read from
+  the build manifest on the [proof site](https://src.mooniak.com/motta-type-one-font/). It
+  tracks the latest development build, not the tagged release.
+
+Known failures, shared by Mooniak's other Sinhala-only fonts: the Google Fonts Latin coverage and
+"render own name" checks (the font has no Latin letters), and the GF repository-layout check.
+
+## Releases and versioning
+
+Versions follow [OpenFV](https://github.com/openfv/openfv) (`MAJOR.MINOR`, three-digit minor).
+Work happens on `dev`; `main` only moves when a release is cut.
+
+| You want | Do this | CI publishes |
+|---|---|---|
+| the latest build | push to `dev` | the rolling `canary` pre-release and the proof site |
+| a fixed preview for testers | tag a `dev` commit `vX.YYY-dev.N` | a GitHub pre-release |
+| a release | merge `dev` into `main` (no squash), tag `main` `vX.YYY` | a GitHub Release |
+
+Bump `versionMajor`/`versionMinor` in the source before tagging. The next release after the
+2020 version 1.000 should be **1.001** or later.
+
+## Contributing
+
+Bug reports and design feedback are welcome in the
+[issue tracker](https://github.com/mooniak/motta-type-one-font/issues). Open pull requests
+against `dev`, make changes in `sources/MottaTypeOne.glyphspackage` with Glyphs 3, rebuild
+(`rm build.stamp && make build`) and run `make test`. Add yourself to `CONTRIBUTORS.txt`.
+
+## Credits
+
+- **Design:** Damith Welikala (2020)
+- **Production and publishing:** [Mooniak](https://mooniak.com/)
 
 ## Changelog
 
-When you update your font (new version or new release), please report all notable changes here, with a date.
-[Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver.
-Changelog example:
+**18 November 2026, version 1.000 (development)**
 
-**26 May 2021. Version 2.13**
+- Moved to the Mooniak build pipeline: Glyphs 3 source converted from the FontForge UFO,
+  LankaGlyphset glyph names, gftools builds with CI, proofs and QA.
+- Fixed feature code that stopped the build, and removed rules that substituted into empty
+  glyphs (repaya, three virama forms, ss01), which made text disappear.
+- Added rules for seven drawn but unreachable conjuncts (fa, nD and ṣa with rakar + i/ii, ඳ්‍ර).
+- Added no-break space and dotted circle; Google Fonts vertical metrics (line height 1.2 em);
+  Mooniak copyright, designer, vendor ID and OFL licence in the font.
 
-- MAJOR Font turned to a variable font.
-- SIGNIFICANT New Stylistic sets added.
+**2020, version 1.000.** Original design by Damith Welikala, made in FontForge.
 
 ## License
 
-This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at https://openfontlicense.org
-
-## Repository Layout
-
-This font repository structure is inspired by [Unified Font Repository v0.3](https://github.com/unified-font-repository/Unified-Font-Repository), modified for the Google Fonts workflow.
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is
+available with a FAQ at https://openfontlicense.org
