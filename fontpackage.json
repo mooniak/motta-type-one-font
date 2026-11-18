@@ -40,7 +40,7 @@
   ],
   "maintenance": {
     "status": "actively-developed",
-    "comment": "Ported to the Mooniak pipeline 2026-11-18 from a 2020 FontForge source. Reph, three virama conjuncts and the ss01 da-forms are not drawn yet (see CHECKLIST.md)."
+    "comment": "Ported to the Mooniak pipeline 2026-11-18 from a 2020 FontForge source. Reph, three virama conjuncts and the ss01 da-forms are not drawn yet."
   },
   "tools": "Glyphs 3 (originally FontForge)",
   "tags": {

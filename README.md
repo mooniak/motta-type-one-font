@@ -100,7 +100,7 @@ lankafea generate --script sinhala --font sources/MottaTypeOne.glyphspackage \
 
 Not shipped yet, because their glyphs are not drawn: repaya (`rphf`), the below-base da-forms
 (`daa._c-sinh`…), and the virama forms of gha + rakar, jha and nga. Those sequences fall back to
-visible letters with a separate virama; see [CHECKLIST.md](CHECKLIST.md).
+visible letters with a separate virama.
 
 ## Repository structure
 
@@ -114,7 +114,6 @@ visible letters with a separate virama; see [CHECKLIST.md](CHECKLIST.md).
 | `fonts/`, `out/`, `_site/` | Build output, QA/proof reports and the proof site (created by `make`; not committed) |
 | `documentation/` | Specimen images and their DrawBot scripts, the font description (`ARTICLE.en_us.html`), and `rename-map.tsv` (old glyph name → LankaGlyphset name) |
 | `scripts/` | Helper scripts used by the Makefile and CI (from the Mooniak project template) |
-| `CHECKLIST.md` | What's done and what's left before the font is complete |
 | `OFL.txt`, `AUTHORS.txt`, `CONTRIBUTORS.txt` | License and credits |
 
 Glyph names follow the [LankaGlyphset](https://github.com/mooniak/lanka-glyphsets) standard
