@@ -1,0 +1,92 @@
+{
+glyphname = sinChU;
+layers = (
+{
+layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
+shapes = (
+{
+ref = sinCha;
+},
+{
+pos = (560,0);
+ref = sinMatraU.alt;
+}
+);
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = -199;
+width = 109;
+},
+{
+position = -199;
+width = 43;
+},
+{
+position = -36;
+width = 29;
+},
+{
+position = 211;
+width = 24;
+},
+{
+position = 319;
+width = 148;
+},
+{
+position = 510;
+width = 45;
+},
+{
+position = 519;
+width = 34;
+},
+{
+position = 564;
+width = 21;
+},
+{
+position = 625;
+width = 91;
+}
+);
+vhints = (
+{
+position = 13;
+width = 52;
+},
+{
+position = 43;
+width = 97;
+},
+{
+position = 81;
+width = 33;
+},
+{
+position = 278;
+width = 68;
+},
+{
+position = 457;
+width = 37;
+},
+{
+position = 474;
+width = 33;
+},
+{
+position = 482;
+width = 49;
+}
+);
+};
+};
+vertWidth = 0;
+width = 545;
+}
+);
+note = "";
+}

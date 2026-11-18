@@ -1,0 +1,72 @@
+{
+glyphname = sinGI;
+layers = (
+{
+layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
+shapes = (
+{
+pos = (585,2);
+ref = sinMatraI.alt2;
+},
+{
+ref = sinGa;
+}
+);
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = -1;
+width = 186;
+},
+{
+position = 351;
+width = 187;
+},
+{
+position = 362;
+width = 178;
+},
+{
+position = 533;
+width = 40;
+},
+{
+position = 574;
+width = 20;
+},
+{
+position = 633;
+width = 86;
+}
+);
+vhints = (
+{
+position = 16;
+width = 31;
+},
+{
+position = 89;
+width = 54;
+},
+{
+position = 311;
+width = 51;
+},
+{
+position = 495;
+width = 53;
+},
+{
+position = 560;
+width = 44;
+}
+);
+};
+};
+vertWidth = 0;
+width = 627;
+}
+);
+note = "";
+}

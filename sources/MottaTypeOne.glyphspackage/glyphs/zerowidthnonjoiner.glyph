@@ -1,0 +1,23 @@
+{
+glyphname = zerowidthnonjoiner;
+layers = (
+{
+layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-20,9,l),
+(-20,743,l),
+(20,743,l),
+(20,9,l)
+);
+}
+);
+vertWidth = 0;
+width = 0;
+}
+);
+note = "";
+unicode = 8204;
+}

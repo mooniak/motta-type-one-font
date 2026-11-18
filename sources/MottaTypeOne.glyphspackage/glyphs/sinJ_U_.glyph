@@ -1,0 +1,96 @@
+{
+glyphname = sinJU;
+layers = (
+{
+layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
+shapes = (
+{
+ref = sinJa;
+},
+{
+pos = (567,0);
+ref = sinMatraU.alt;
+}
+);
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = -199;
+width = 109;
+},
+{
+position = -199;
+width = 43;
+},
+{
+position = -36;
+width = 29;
+},
+{
+position = 0;
+width = 21;
+},
+{
+position = 440;
+width = 20;
+},
+{
+position = 442;
+width = 29;
+},
+{
+position = 506;
+width = 39;
+},
+{
+position = 522;
+width = 26;
+},
+{
+position = 561;
+width = 21;
+},
+{
+position = 626;
+width = 89;
+}
+);
+vhints = (
+{
+position = 12;
+width = 50;
+},
+{
+position = 43;
+width = 95;
+},
+{
+position = 88;
+width = 33;
+},
+{
+position = 370;
+width = 27;
+},
+{
+position = 450;
+width = 22;
+},
+{
+position = 464;
+width = 37;
+},
+{
+position = 485;
+width = 50;
+}
+);
+};
+};
+vertWidth = 0;
+width = 560;
+}
+);
+note = "";
+}

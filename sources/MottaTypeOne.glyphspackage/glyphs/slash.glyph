@@ -1,0 +1,27 @@
+{
+glyphname = slash;
+layers = (
+{
+layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(176,167,o),
+(342,521,o),
+(406,651,c),
+(328,648,l),
+(230,412,o),
+(126,175,o),
+(7,-62,c),
+(81,-62,l)
+);
+}
+);
+vertWidth = 0;
+width = 410;
+}
+);
+note = "";
+unicode = 47;
+}

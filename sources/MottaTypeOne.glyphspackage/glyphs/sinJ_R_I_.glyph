@@ -1,0 +1,88 @@
+{
+glyphname = sinJRI;
+layers = (
+{
+layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
+shapes = (
+{
+ref = sinJI;
+},
+{
+pos = (626,2);
+ref = sinRakar.short;
+}
+);
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = -199;
+width = 110;
+},
+{
+position = 0;
+width = 21;
+},
+{
+position = 440;
+width = 20;
+},
+{
+position = 442;
+width = 29;
+},
+{
+position = 506;
+width = 39;
+},
+{
+position = 522;
+width = 26;
+},
+{
+position = 561;
+width = 21;
+},
+{
+position = 626;
+width = 89;
+}
+);
+vhints = (
+{
+position = 12;
+width = 50;
+},
+{
+position = 33;
+width = 35;
+},
+{
+position = 43;
+width = 95;
+},
+{
+position = 370;
+width = 27;
+},
+{
+position = 450;
+width = 22;
+},
+{
+position = 485;
+width = 50;
+},
+{
+position = 487;
+width = 40;
+}
+);
+};
+};
+vertWidth = 0;
+width = 560;
+}
+);
+note = "";
+}

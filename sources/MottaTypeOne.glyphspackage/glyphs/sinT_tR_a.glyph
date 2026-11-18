@@ -1,0 +1,64 @@
+{
+glyphname = sinTtRa;
+layers = (
+{
+layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
+shapes = (
+{
+ref = sinTta;
+},
+{
+pos = (617,5);
+ref = sinRakar.medium;
+}
+);
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = -196;
+width = 110;
+},
+{
+position = 3;
+width = 167;
+},
+{
+position = 321;
+width = 169;
+},
+{
+position = 492;
+width = 21;
+},
+{
+position = 549;
+width = 142;
+}
+);
+vhints = (
+{
+position = 19;
+width = 51;
+},
+{
+position = 24;
+width = 35;
+},
+{
+position = 478;
+width = 40;
+},
+{
+position = 488;
+width = 45;
+}
+);
+};
+};
+vertWidth = 0;
+width = 549;
+}
+);
+note = "";
+}

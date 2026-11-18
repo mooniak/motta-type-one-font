@@ -1,0 +1,84 @@
+{
+glyphname = sinKhUu;
+layers = (
+{
+layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
+shapes = (
+{
+ref = sinKha;
+},
+{
+pos = (540,0);
+ref = sinMatraUu.alt;
+}
+);
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = -199;
+width = 46;
+},
+{
+position = -172;
+width = 83;
+},
+{
+position = -35;
+width = 27;
+},
+{
+position = -8;
+width = 147;
+},
+{
+position = 0;
+width = 140;
+},
+{
+position = 280;
+width = 166;
+},
+{
+position = 465;
+width = 21;
+},
+{
+position = 527;
+width = 152;
+}
+);
+vhints = (
+{
+position = 9;
+width = 66;
+},
+{
+position = 50;
+width = 65;
+},
+{
+position = 61;
+width = 34;
+},
+{
+position = 185;
+width = 24;
+},
+{
+position = 439;
+width = 35;
+},
+{
+position = 464;
+width = 32;
+}
+);
+};
+};
+vertWidth = 0;
+width = 518;
+}
+);
+note = "";
+}

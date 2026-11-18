@@ -1,0 +1,72 @@
+{
+glyphname = sinDDha;
+layers = (
+{
+layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-45.7256,186.026,o),
+(129,495,o),
+(356,416,c),
+(354,436,l),
+(31,527,o),
+(-54.0625,134.2,o),
+(83,-12,c),
+(102,-12,o),
+(113,-8,o),
+(117,-5,c)
+);
+},
+{
+pos = (78,0);
+ref = sinDha;
+}
+);
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = 0;
+width = 156;
+},
+{
+position = 1;
+width = 166;
+},
+{
+position = 416;
+width = 20;
+},
+{
+position = 432;
+width = 20;
+},
+{
+position = 578;
+width = 134;
+}
+);
+vhints = (
+{
+position = 91;
+width = 49;
+},
+{
+position = 351;
+width = 59;
+},
+{
+position = 607;
+width = 35;
+}
+);
+};
+};
+vertWidth = 0;
+width = 664;
+}
+);
+note = "";
+}

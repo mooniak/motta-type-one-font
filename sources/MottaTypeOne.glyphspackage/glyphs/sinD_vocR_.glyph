@@ -1,0 +1,84 @@
+{
+glyphname = sinDvocR;
+layers = (
+{
+layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
+shapes = (
+{
+ref = sinDa;
+},
+{
+pos = (458,0);
+ref = sinMatraR;
+}
+);
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = -200;
+width = 111;
+},
+{
+position = -1;
+width = 115;
+},
+{
+position = 7;
+width = 165;
+},
+{
+position = 284;
+width = 154;
+},
+{
+position = 420;
+width = 134;
+},
+{
+position = 441;
+width = 101;
+}
+);
+vhints = (
+{
+position = 14;
+width = 32;
+},
+{
+position = 215;
+width = 64;
+},
+{
+position = 392;
+width = 57;
+},
+{
+position = 405;
+width = 43;
+},
+{
+position = 461;
+width = 37;
+},
+{
+position = 505;
+width = 39;
+},
+{
+position = 677;
+width = 71;
+},
+{
+position = 706;
+width = 42;
+}
+);
+};
+};
+vertWidth = 0;
+width = 768;
+}
+);
+note = "";
+}

@@ -1,0 +1,105 @@
+{
+glyphname = sinKSs.virama;
+layers = (
+{
+layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
+shapes = (
+{
+pos = (1026,26);
+ref = sinVirama;
+},
+{
+pos = (-15,0);
+ref = sinKSsa;
+}
+);
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = -1;
+width = 187;
+},
+{
+position = 0;
+width = 178;
+},
+{
+position = 201;
+width = 93;
+},
+{
+position = 442;
+width = 88;
+},
+{
+position = 480;
+width = 21;
+},
+{
+position = 493;
+width = 46;
+},
+{
+position = 510;
+width = 39;
+},
+{
+position = 596;
+width = 125;
+},
+{
+position = 657;
+width = 66;
+}
+);
+vhints = (
+{
+position = 2;
+width = 60;
+},
+{
+position = 6;
+width = 114;
+},
+{
+position = 232;
+width = 58;
+},
+{
+position = 422;
+width = 60;
+},
+{
+position = 487;
+width = 51;
+},
+{
+position = 518;
+width = 96;
+},
+{
+position = 890;
+width = 96;
+},
+{
+position = 906;
+width = 34;
+},
+{
+position = 906;
+width = 151;
+},
+{
+position = 966;
+width = 51;
+}
+);
+};
+};
+vertWidth = 0;
+width = 1217;
+}
+);
+note = "";
+}

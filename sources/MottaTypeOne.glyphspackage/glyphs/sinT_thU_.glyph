@@ -1,0 +1,77 @@
+{
+glyphname = sinTthU;
+layers = (
+{
+layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
+shapes = (
+{
+pos = (28,0);
+ref = sinTtha;
+},
+{
+pos = (580,0);
+ref = sinMatraU;
+}
+);
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = -199;
+width = 109;
+},
+{
+position = -199;
+width = 43;
+},
+{
+position = -36;
+width = 29;
+},
+{
+position = -1;
+width = 142;
+},
+{
+position = 276;
+width = 128;
+},
+{
+position = 458;
+width = 74;
+},
+{
+position = 691;
+width = 20;
+}
+);
+vhints = (
+{
+position = 14;
+width = 42;
+},
+{
+position = 101;
+width = 33;
+},
+{
+position = 246;
+width = 32;
+},
+{
+position = 477;
+width = 37;
+},
+{
+position = 509;
+width = 30;
+}
+);
+};
+};
+vertWidth = 0;
+width = 563;
+}
+);
+note = "";
+}
