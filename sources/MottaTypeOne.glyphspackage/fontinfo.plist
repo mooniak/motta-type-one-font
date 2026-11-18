@@ -7,41 +7,9 @@ name = vendorID;
 value = MNIK;
 },
 {
-name = hheaAscender;
-value = 799;
-},
-{
-name = hheaDescender;
-value = -223;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
 name = fsType;
 value = (
 );
-},
-{
-name = typoAscender;
-value = 800;
-},
-{
-name = typoDescender;
-value = -200;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 799;
-},
-{
-name = winDescent;
-value = 223;
 },
 {
 name = weightClass;
@@ -220,6 +188,7 @@ lookup sin_abvs_3 {
     sub \\ddRa-sinh \\isign-sinh  by \\ddRI-sinh;
     sub \\dhRa-sinh \\isign-sinh  by \\dhRI-sinh;
     sub \\gRa-sinh \\isign-sinh  by \\gRI-sinh;
+    sub \\fRa-sinh \\isign-sinh  by \\fRI-sinh;
     sub \\ghRa-sinh \\isign-sinh  by \\ghRI-sinh;
     sub \\hRa-sinh \\isign-sinh  by \\hRI-sinh;
     sub \\jRa-sinh \\isign-sinh  by \\jRI-sinh;
@@ -243,6 +212,7 @@ lookup sin_abvs_4 {
     sub \\ddRa-sinh \\iisign-sinh  by \\ddRIi-sinh;
     sub \\dhRa-sinh \\iisign-sinh  by \\dhRIi-sinh;
     sub \\gRa-sinh \\iisign-sinh  by \\gRIi-sinh;
+    sub \\fRa-sinh \\iisign-sinh  by \\fRIi-sinh;
     sub \\ghRa-sinh \\iisign-sinh  by \\ghRIi-sinh;
     sub \\hRa-sinh \\iisign-sinh  by \\hRIi-sinh;
     sub \\jRa-sinh \\iisign-sinh  by \\jRIi-sinh;
@@ -581,12 +551,14 @@ tag = psts;
 code = "script sinh;
      language dflt ;
       lookup ss_01;";
+disabled = 1;
 tag = ss01;
 },
 {
 code = "script sinh;
      language dflt ;
       lookup sin_rakar_ss02;";
+disabled = 1;
 tag = ss02;
 }
 );
@@ -594,12 +566,16 @@ fontMaster = (
 {
 customParameters = (
 {
+name = "Use Typo Metrics";
+value = 1;
+},
+{
 name = hheaAscender;
-value = 799;
+value = 900;
 },
 {
 name = hheaDescender;
-value = -223;
+value = -300;
 },
 {
 name = hheaLineGap;
@@ -612,11 +588,11 @@ value = (
 },
 {
 name = typoAscender;
-value = 800;
+value = 900;
 },
 {
 name = typoDescender;
-value = -200;
+value = -300;
 },
 {
 name = typoLineGap;
@@ -624,11 +600,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 799;
+value = 900;
 },
 {
 name = winDescent;
-value = 223;
+value = 300;
 },
 {
 name = weightClass;
@@ -696,6 +672,56 @@ type = descender;
 },
 {
 type = "italic angle";
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2020 The Motta Type One Project Authors (https://github.com/mooniak/motta-type-one-font)";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Damith Welikala";
+}
+);
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = mooniak;
+}
+);
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
+}
+);
+},
+{
+key = designerURL;
+value = "http://www.mooniak.com/";
+},
+{
+key = manufacturerURL;
+value = "https://mooniak.com/";
+},
+{
+key = licenseURL;
+value = "https://openfontlicense.org";
 }
 );
 stems = (

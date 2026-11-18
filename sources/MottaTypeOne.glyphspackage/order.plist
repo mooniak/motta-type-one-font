@@ -489,9 +489,11 @@ kunddaliya,
 six,
 slash,
 space,
+nbspace,
 three,
 two,
 zero,
 zerowidthjoiner,
-zerowidthnonjoiner
+zerowidthnonjoiner,
+dottedCircle
 )
