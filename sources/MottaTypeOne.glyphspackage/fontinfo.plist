@@ -72,6 +72,7 @@ lookup sin_rakar {
     sub \\ma-sinh \\virama-sinh \\zerowidthjoiner \\ra-sinh  by \\mRa-sinh;
     sub \\nDa-sinh \\virama-sinh \\zerowidthjoiner \\ra-sinh  by \\nDRa-sinh;
     sub \\nyja-sinh \\virama-sinh \\zerowidthjoiner \\ra-sinh  by \\nyjRa-sinh;
+    sub \\nda-sinh \\virama-sinh \\zerowidthjoiner \\ra-sinh  by \\ndRa-sinh;
     sub \\pa-sinh \\virama-sinh \\zerowidthjoiner \\ra-sinh  by \\pRa-sinh;
     sub \\sa-sinh \\virama-sinh \\zerowidthjoiner \\ra-sinh  by \\sRa-sinh;
     sub \\sha-sinh \\virama-sinh \\zerowidthjoiner \\ra-sinh  by \\shRa-sinh;
@@ -188,6 +189,8 @@ lookup sin_abvs_3 {
     sub \\ddRa-sinh \\isign-sinh  by \\ddRI-sinh;
     sub \\dhRa-sinh \\isign-sinh  by \\dhRI-sinh;
     sub \\gRa-sinh \\isign-sinh  by \\gRI-sinh;
+    sub \\nDRa-sinh \\isign-sinh  by \\nDRI-sinh;
+    sub \\ssRa-sinh \\isign-sinh  by \\ssRI-sinh;
     sub \\fRa-sinh \\isign-sinh  by \\fRI-sinh;
     sub \\ghRa-sinh \\isign-sinh  by \\ghRI-sinh;
     sub \\hRa-sinh \\isign-sinh  by \\hRI-sinh;
@@ -212,6 +215,8 @@ lookup sin_abvs_4 {
     sub \\ddRa-sinh \\iisign-sinh  by \\ddRIi-sinh;
     sub \\dhRa-sinh \\iisign-sinh  by \\dhRIi-sinh;
     sub \\gRa-sinh \\iisign-sinh  by \\gRIi-sinh;
+    sub \\nDRa-sinh \\iisign-sinh  by \\nDRIi-sinh;
+    sub \\ssRa-sinh \\iisign-sinh  by \\ssRIi-sinh;
     sub \\fRa-sinh \\iisign-sinh  by \\fRIi-sinh;
     sub \\ghRa-sinh \\iisign-sinh  by \\ghRIi-sinh;
     sub \\hRa-sinh \\iisign-sinh  by \\hRIi-sinh;
