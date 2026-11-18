@@ -8,14 +8,16 @@ Tick items as they're done; keep this file current with each release.
 
 - [x] Repo `mooniak/motta-type-one-font`, public, from the Mooniak project template
 - [x] Template synced to the latest (`mnik template-sync motta-type-one-font`)
-- [x] `dev` branch is the working and default branch; `main` is release-only
+- [x] `dev` branch is the working branch; `main` is release-only
+- [ ] Make `dev` the GitHub default branch: `gh repo edit mooniak/motta-type-one-font --default-branch dev`
+      (needed for "Run workflow" and so visitors land on the current README)
 - [x] `sources/config.yaml` builds static TTF + OTF + WOFF2 from the Glyphs package
 - [x] Builds locally with `make build` and with `mnik build`
 - [x] Full CI sequence passes locally: build, stamp, test, proof, manifest, pages
-- [x] GitHub Actions build green on `dev`
+- [x] GitHub Actions build green on `dev` (first run, 18 Nov 2026)
 - [x] GitHub Pages serves the proof site at https://src.mooniak.com/motta-type-one-font/
 - [x] README badges (build, QA pass rate, release, licence) resolve
-- [ ] First `canary` pre-release published by CI (happens on the first push to `dev`; check the Releases page)
+- [x] First `canary` pre-release published by CI
 
 ## 2. Source
 
@@ -81,7 +83,8 @@ Other drawing items:
 
 ## 6. QA (Fontspector, Google Fonts profile)
 
-Latest local run: 4 FAIL, 16 WARN, 95 PASS (pass rate 79%). Was 14 FAIL before the port.
+First CI run: 4 FAIL, 17 WARN, 96 PASS (pass rate 71%, 222 checks). Local fontspector 1.7.3:
+4 FAIL, 16 WARN, 95 PASS (79%, 204 checks). Was 14 FAIL before the port.
 
 - [x] Vertical metrics: hhea = typo = win = 900/−300, `USE_TYPO_METRICS`, covers the bounding box
 - [x] No-break space, dotted circle, name ID 9, copyright, licence
