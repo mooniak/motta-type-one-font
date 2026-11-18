@@ -44,8 +44,8 @@ lookup sin_rakar {
     sub \sinKa \sinVirama \zerowidthjoiner \sinRa  by \sinKRa;
     sub \sinKha \sinVirama \zerowidthjoiner \sinRa  by \sinKhRa;
     sub \sinMa \sinVirama \zerowidthjoiner \sinRa  by \sinMRa;
-    sub \sinNDa \sinVirama \zerowidthjoiner \uni0DBBiuni0DBBinRa  by \sinNDRa;
-    sub \sinNdja \sinVirama \zerowidthjoiner \uni0DBBiuni0DBBinRa  by \sinNdjRa;
+    sub \sinNDa \sinVirama \zerowidthjoiner \sinRa  by \sinNDRa;
+    sub \sinNdja \sinVirama \zerowidthjoiner \sinRa  by \sinNdjRa;
     sub \sinPa \sinVirama \zerowidthjoiner \sinRa  by \sinPRa;
     sub \sinSa \sinVirama \zerowidthjoiner \sinRa  by \sinSRa;
     sub \sinSha \sinVirama \zerowidthjoiner \sinRa  by \sinShRa;
@@ -413,8 +413,8 @@ lookup ss_01 {
     sub \sinDa \sinMatraAa.virama  by \sinDAa.virama.ss01;
     sub \sinDa \sinMatraAae  by \sinDAae.ss01;
     sub \sinDa \sinMatraAe  by \sinDAe.ss01;
-    sub \sinDa \sinYa.post \sinMatraAaF  by \sinDYAa.post.ss01;
-    sub \sinDa \sinYa.post \sinMatraAa.viramaa  by \sinDYOo.post.ss01;
+    sub \sinDa \sinYa.post \sinMatraAa  by \sinDYAa.post.ss01;
+    sub \sinDa \sinYa.post \sinMatraAa.virama  by \sinDYOo.post.ss01;
     sub \sinDa \sinYUu.post  by \sinDYUu.post.ss01;
     sub \sinDa \sinYa.post  by \sinDYa.post.ss01;
     sub \sinDa \sinYU.post  by \sinDYu.post.ss01;
@@ -453,8 +453,8 @@ lookup sin_rakar_ss02 {
     sub \sinKa \sinVirama \zerowidthjoiner \sinRa  by \sinKRa;
     sub \sinKha \sinVirama \zerowidthjoiner \sinRa  by \sinKhRa;
     sub \sinMa \sinVirama \zerowidthjoiner \sinRa  by \sinMRa;
-    sub \sinNDa \sinVirama \zerowidthjoiner \uni0DBBiuni0DBBinRa  by \sinNDRa;
-    sub \sinNdja \sinVirama \zerowidthjoiner \uni0DBBiuni0DBBinRa  by \sinNdjRa;
+    sub \sinNDa \sinVirama \zerowidthjoiner \sinRa  by \sinNDRa;
+    sub \sinNdja \sinVirama \zerowidthjoiner \sinRa  by \sinNdjRa;
     sub \sinPa \sinVirama \zerowidthjoiner \sinRa  by \sinPRa;
     sub \sinSa \sinVirama \zerowidthjoiner \sinRa  by \sinSRa;
     sub \sinSha \sinVirama \zerowidthjoiner \sinRa  by \sinShRa;
@@ -533,7 +533,6 @@ feature ss02 {
 
  script sinh;
      language dflt ;
-      lookup sin_yansaya_ss02;
       lookup sin_rakar_ss02;
 } ss02;
 
