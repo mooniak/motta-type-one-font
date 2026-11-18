@@ -1,0 +1,69 @@
+{
+glyphname = "vRa-sinh";
+layers = (
+{
+layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
+shapes = (
+{
+pos = (612,0);
+ref = "rasign-sinh.medium";
+},
+{
+pos = (11,0);
+ref = "va-sinh";
+}
+);
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = -201;
+width = 110;
+},
+{
+position = 0;
+width = 166;
+},
+{
+position = 308;
+width = 142;
+},
+{
+position = 450;
+width = 76;
+},
+{
+position = 581;
+width = 116;
+}
+);
+vhints = (
+{
+position = 19;
+width = 35;
+},
+{
+position = 27;
+width = 39;
+},
+{
+position = 259;
+width = 46;
+},
+{
+position = 473;
+width = 40;
+},
+{
+position = 483;
+width = 38;
+}
+);
+};
+};
+vertWidth = 0;
+width = 534;
+}
+);
+note = "";
+}

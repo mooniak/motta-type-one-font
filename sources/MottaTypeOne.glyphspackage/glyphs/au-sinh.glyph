@@ -1,0 +1,73 @@
+{
+glyphname = "au-sinh";
+layers = (
+{
+layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
+shapes = (
+{
+ref = "o-sinh";
+},
+{
+pos = (543,1);
+ref = "vocaliclsign-sinh";
+}
+);
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = 1;
+width = 171;
+},
+{
+position = 3;
+width = 173;
+},
+{
+position = 274;
+width = 84;
+},
+{
+position = 433;
+width = 84;
+},
+{
+position = 442;
+width = 77;
+},
+{
+position = 473;
+width = 20;
+},
+{
+position = 566;
+width = 119;
+}
+);
+vhints = (
+{
+position = 512;
+width = 41;
+},
+{
+position = 562;
+width = 14;
+},
+{
+position = 695;
+width = 23;
+},
+{
+position = 822;
+width = 22;
+}
+);
+};
+};
+vertWidth = 0;
+width = 864;
+}
+);
+note = "";
+unicode = 3478;
+}

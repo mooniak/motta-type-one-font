@@ -1,0 +1,80 @@
+{
+glyphname = "khRIi-sinh";
+layers = (
+{
+layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
+shapes = (
+{
+ref = "khIi-sinh";
+},
+{
+pos = (614,4);
+ref = "rasign-sinh.medium";
+}
+);
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = -197;
+width = 110;
+},
+{
+position = -6;
+width = 145;
+},
+{
+position = 280;
+width = 166;
+},
+{
+position = 549;
+width = 34;
+},
+{
+position = 637;
+width = 84;
+}
+);
+vhints = (
+{
+position = 13;
+width = 66;
+},
+{
+position = 21;
+width = 35;
+},
+{
+position = 59;
+width = 40;
+},
+{
+position = 192;
+width = 23;
+},
+{
+position = 311;
+width = 45;
+},
+{
+position = 417;
+width = 34;
+},
+{
+position = 464;
+width = 40;
+},
+{
+position = 475;
+width = 40;
+}
+);
+};
+};
+vertWidth = 0;
+width = 664;
+}
+);
+note = "";
+}

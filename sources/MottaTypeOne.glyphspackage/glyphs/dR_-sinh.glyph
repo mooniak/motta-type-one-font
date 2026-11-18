@@ -1,0 +1,80 @@
+{
+glyphname = "dR-sinh";
+layers = (
+{
+layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
+shapes = (
+{
+ref = "dRa-sinh";
+},
+{
+pos = (449,-20);
+ref = "virama-sinh";
+}
+);
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = -137;
+width = 88;
+},
+{
+position = 12;
+width = 156;
+},
+{
+position = 281;
+width = 151;
+},
+{
+position = 434;
+width = 21;
+},
+{
+position = 435;
+width = 99;
+},
+{
+position = 550;
+width = 125;
+},
+{
+position = 611;
+width = 66;
+}
+);
+vhints = (
+{
+position = 16;
+width = 38;
+},
+{
+position = 71;
+width = 26;
+},
+{
+position = 132;
+width = 244;
+},
+{
+position = 329;
+width = 34;
+},
+{
+position = 329;
+width = 151;
+},
+{
+position = 403;
+width = 29;
+}
+);
+};
+};
+vertWidth = 0;
+width = 438;
+}
+);
+note = "";
+}

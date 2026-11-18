@@ -1,0 +1,72 @@
+{
+glyphname = "th-sinh";
+layers = (
+{
+layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
+shapes = (
+{
+ref = "tha-sinh";
+},
+{
+pos = (588,20);
+ref = "virama-sinh";
+}
+);
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = 0;
+width = 162;
+},
+{
+position = 309;
+width = 164;
+},
+{
+position = 474;
+width = 21;
+},
+{
+position = 590;
+width = 125;
+},
+{
+position = 648;
+width = 66;
+},
+{
+position = 651;
+width = 66;
+}
+);
+vhints = (
+{
+position = 17;
+width = 50;
+},
+{
+position = 207;
+width = 35;
+},
+{
+position = 468;
+width = 34;
+},
+{
+position = 468;
+width = 151;
+},
+{
+position = 493;
+width = 34;
+}
+);
+};
+};
+vertWidth = 0;
+width = 549;
+}
+);
+note = "";
+}

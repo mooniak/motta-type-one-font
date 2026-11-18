@@ -1,0 +1,85 @@
+{
+glyphname = "tRIi-sinh";
+layers = (
+{
+layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
+shapes = (
+{
+pos = (696,18);
+ref = "iisign-sinh.alt1";
+},
+{
+pos = (-7,0);
+ref = "ta-sinh";
+},
+{
+pos = (708,0);
+ref = "rasign-sinh.long";
+}
+);
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = -201;
+width = 110;
+},
+{
+position = 0;
+width = 182;
+},
+{
+position = 465;
+width = 21;
+},
+{
+position = 489;
+width = 43;
+},
+{
+position = 493;
+width = 49;
+},
+{
+position = 638;
+width = 98;
+}
+);
+vhints = (
+{
+position = 6;
+width = 111;
+},
+{
+position = 115;
+width = 35;
+},
+{
+position = 367;
+width = 58;
+},
+{
+position = 431;
+width = 99;
+},
+{
+position = 569;
+width = 40;
+},
+{
+position = 577;
+width = 49;
+},
+{
+position = 637;
+width = 44;
+}
+);
+};
+};
+vertWidth = 0;
+width = 702;
+}
+);
+note = "";
+}

@@ -1,0 +1,102 @@
+{
+glyphname = "vocalicrr-sinh";
+layers = (
+{
+layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
+shapes = (
+{
+pos = (-14,0);
+ref = "vocalicr-sinh";
+},
+{
+pos = (799,0);
+ref = "vocalicrsign-sinh";
+}
+);
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = -1;
+width = 115;
+},
+{
+position = 0;
+width = 109;
+},
+{
+position = 5;
+width = 172;
+},
+{
+position = 299;
+width = 152;
+},
+{
+position = 401;
+width = 127;
+},
+{
+position = 420;
+width = 134;
+},
+{
+position = 500;
+width = 42;
+}
+);
+vhints = (
+{
+position = 2;
+width = 59;
+},
+{
+position = 233;
+width = 47;
+},
+{
+position = 256;
+width = 206;
+},
+{
+position = 510;
+width = 36;
+},
+{
+position = 553;
+width = 38;
+},
+{
+position = 720;
+width = 69;
+},
+{
+position = 752;
+width = 37;
+},
+{
+position = 802;
+width = 37;
+},
+{
+position = 846;
+width = 39;
+},
+{
+position = 1018;
+width = 71;
+},
+{
+position = 1047;
+width = 42;
+}
+);
+};
+};
+vertWidth = 0;
+width = 1107;
+}
+);
+note = "";
+unicode = 3470;
+}

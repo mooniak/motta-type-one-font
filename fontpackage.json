@@ -1,27 +1,29 @@
 {
-  "name": "My Font",
-  "id": "my-font",
+  "name": "Motta Type One",
+  "id": "motta-type-one",
   "type": "family",
   "designer": [
-    "Mooniak"
+    "Damith Welikala"
   ],
   "scripts": [
-    "Latn"
+    "Sinh"
   ],
-  "description": "A short description of the font goes here.",
+  "description": "A heavy, rounded Sinhala display typeface designed by Damith Welikala.",
   "license": "OFL-1.1",
+  "tier": "free",
   "channels": [
     "canary",
     "dev",
     "release"
   ],
+  "maturity": "beta",
   "versions_provider": "tags",
   "repository": {
-    "url": "https://github.com/mooniak/my-font",
+    "url": "https://github.com/mooniak/motta-type-one-font",
     "type": "git"
   },
-  "homepage_url": "https://src.mooniak.com/my-font/",
-  "issues_url": "https://github.com/mooniak/my-font/issues/",
+  "homepage_url": "https://src.mooniak.com/motta-type-one-font/",
+  "issues_url": "https://github.com/mooniak/motta-type-one-font/issues/",
   "funding_url": "https://opencollective.com/akuruxyz/projects/lanka-font-library",
   "foundry": {
     "name": "mooniak",
@@ -31,42 +33,32 @@
   },
   "designers": [
     {
-      "name": "",
+      "name": "Damith Welikala",
       "email": "",
       "url": ""
     }
   ],
   "maintenance": {
     "status": "actively-developed",
-    "comment": ""
+    "comment": "Ported to the Mooniak pipeline 2026-11-18 from a 2020 FontForge source. Reph, three virama conjuncts and the ss01 da-forms are not drawn yet (see CHECKLIST.md)."
   },
-  "tools": "",
-  "progress": {
-    "design": 0,
-    "family_styles": 0,
-    "character_set": 0,
-    "drawing_quality": 0,
-    "spacing": 0,
-    "kerning": 0,
-    "hinting": 0,
-    "opentype_features": 0
-  },
+  "tools": "Glyphs 3 (originally FontForge)",
   "tags": {
-    "style": "",
-    "contrast": "",
+    "style": "display",
+    "contrast": "low",
     "width": "normal",
-    "body_height": "",
-    "intended_usage": "body text",
+    "body_height": "normal",
+    "intended_usage": "display",
     "figures": "normal",
     "languages": [
-      "en_US"
+      "si_LK"
     ],
     "related_fonts": []
   },
   "directory": {
     "listed": true,
     "display_texts": {
-      "en_US": ""
+      "si_LK": "ලොකු අකුරින් කියන්න, හඬ නගා කියන්න."
     },
     "display_images": {
       "banner": "",

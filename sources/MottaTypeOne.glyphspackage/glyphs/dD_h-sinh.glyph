@@ -1,0 +1,80 @@
+{
+glyphname = "dDh-sinh";
+layers = (
+{
+layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-23.7258,186.026,o),
+(87,477,o),
+(314,398,c),
+(312,418,l),
+(-11,509,o),
+(-32.0627,134.2,o),
+(105,-12,c),
+(124,-12,o),
+(135,-8,o),
+(139,-5,c)
+);
+},
+{
+pos = (79,0);
+ref = "dh-sinh";
+}
+);
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = 4;
+width = 159;
+},
+{
+position = 4;
+width = 149;
+},
+{
+position = 299;
+width = 136;
+},
+{
+position = 398;
+width = 20;
+},
+{
+position = 541;
+width = 21;
+},
+{
+position = 576;
+width = 29;
+},
+{
+position = 659;
+width = 70;
+}
+);
+vhints = (
+{
+position = 95;
+width = 41;
+},
+{
+position = 173;
+width = 32;
+},
+{
+position = 570;
+width = 54;
+}
+);
+};
+};
+vertWidth = 0;
+width = 648;
+}
+);
+note = "";
+}

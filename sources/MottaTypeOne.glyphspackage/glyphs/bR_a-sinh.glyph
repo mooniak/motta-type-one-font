@@ -1,0 +1,76 @@
+{
+glyphname = "bRa-sinh";
+layers = (
+{
+layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
+shapes = (
+{
+ref = "ba-sinh";
+},
+{
+pos = (613,4);
+ref = "rasign-sinh.medium";
+}
+);
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = -197;
+width = 110;
+},
+{
+position = 0;
+width = 149;
+},
+{
+position = 307;
+width = 145;
+},
+{
+position = 469;
+width = 21;
+},
+{
+position = 528;
+width = 157;
+}
+);
+vhints = (
+{
+position = 15;
+width = 48;
+},
+{
+position = 20;
+width = 35;
+},
+{
+position = 58;
+width = 67;
+},
+{
+position = 213;
+width = 81;
+},
+{
+position = 338;
+width = 39;
+},
+{
+position = 474;
+width = 40;
+},
+{
+position = 474;
+width = 35;
+}
+);
+};
+};
+vertWidth = 0;
+width = 534;
+}
+);
+note = "";
+}

@@ -1,0 +1,104 @@
+{
+glyphname = "kSsU-sinh";
+layers = (
+{
+layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
+shapes = (
+{
+ref = "kSsa-sinh";
+},
+{
+pos = (1045,-19);
+ref = "usign-sinh.alt";
+}
+);
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = -218;
+width = 109;
+},
+{
+position = -218;
+width = 43;
+},
+{
+position = -55;
+width = 29;
+},
+{
+position = -1;
+width = 187;
+},
+{
+position = 0;
+width = 178;
+},
+{
+position = 201;
+width = 93;
+},
+{
+position = 442;
+width = 88;
+},
+{
+position = 493;
+width = 46;
+},
+{
+position = 510;
+width = 39;
+}
+);
+vhints = (
+{
+position = 17;
+width = 60;
+},
+{
+position = 21;
+width = 114;
+},
+{
+position = 247;
+width = 58;
+},
+{
+position = 437;
+width = 60;
+},
+{
+position = 502;
+width = 51;
+},
+{
+position = 533;
+width = 96;
+},
+{
+position = 566;
+width = 33;
+},
+{
+position = 905;
+width = 96;
+},
+{
+position = 942;
+width = 37;
+},
+{
+position = 981;
+width = 51;
+}
+);
+};
+};
+vertWidth = 0;
+width = 1052;
+}
+);
+note = "";
+}

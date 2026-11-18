@@ -1,0 +1,89 @@
+{
+glyphname = "pRI-sinh";
+layers = (
+{
+layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
+shapes = (
+{
+pos = (-2,0);
+ref = "pRa-sinh";
+},
+{
+pos = (560,13);
+ref = "isign-sinh.alt";
+}
+);
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = -203;
+width = 110;
+},
+{
+position = -1;
+width = 21;
+},
+{
+position = 446;
+width = 20;
+},
+{
+position = 512;
+width = 39;
+},
+{
+position = 544;
+width = 40;
+},
+{
+position = 585;
+width = 20;
+},
+{
+position = 644;
+width = 86;
+}
+);
+vhints = (
+{
+position = 11;
+width = 51;
+},
+{
+position = 19;
+width = 35;
+},
+{
+position = 42;
+width = 97;
+},
+{
+position = 64;
+width = 54;
+},
+{
+position = 416;
+width = 97;
+},
+{
+position = 470;
+width = 53;
+},
+{
+position = 473;
+width = 40;
+},
+{
+position = 493;
+width = 51;
+}
+);
+};
+};
+vertWidth = 0;
+width = 565;
+}
+);
+note = "";
+}

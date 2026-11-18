@@ -1,0 +1,64 @@
+{
+glyphname = "tI-sinh";
+layers = (
+{
+layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
+shapes = (
+{
+ref = "ta-sinh";
+},
+{
+pos = (711,-10);
+ref = "isign-sinh.alt1";
+}
+);
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = 0;
+width = 182;
+},
+{
+position = 443;
+width = 21;
+},
+{
+position = 489;
+width = 43;
+},
+{
+position = 625;
+width = 82;
+}
+);
+vhints = (
+{
+position = 13;
+width = 111;
+},
+{
+position = 374;
+width = 58;
+},
+{
+position = 438;
+width = 99;
+},
+{
+position = 596;
+width = 40;
+},
+{
+position = 644;
+width = 44;
+}
+);
+};
+};
+vertWidth = 0;
+width = 702;
+}
+);
+note = "";
+}

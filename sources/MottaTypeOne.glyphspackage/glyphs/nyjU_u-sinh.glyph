@@ -1,0 +1,125 @@
+{
+glyphname = "nyjUu-sinh";
+layers = (
+{
+layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
+shapes = (
+{
+closed = 1;
+nodes = (
+(122,29,o),
+(54,133,o),
+(54,241,cs),
+(54,372.461,o),
+(120.996,500.083,o),
+(239,505,cs),
+(263,506,o),
+(286,503,o),
+(312,511,c),
+(310,515,l),
+(287,525,o),
+(246,536,o),
+(213,536,cs),
+(110,536,o),
+(22,400.316,o),
+(22,242,cs),
+(22,106,o),
+(122,29,o),
+(122,29,c)
+);
+},
+{
+pos = (94,0);
+ref = "jUu-sinh";
+}
+);
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = -201;
+width = 46;
+},
+{
+position = -174;
+width = 83;
+},
+{
+position = -37;
+width = 27;
+},
+{
+position = 0;
+width = 21;
+},
+{
+position = 440;
+width = 20;
+},
+{
+position = 442;
+width = 29;
+},
+{
+position = 505;
+width = 31;
+},
+{
+position = 506;
+width = 39;
+},
+{
+position = 522;
+width = 26;
+},
+{
+position = 561;
+width = 21;
+},
+{
+position = 626;
+width = 89;
+}
+);
+vhints = (
+{
+position = 22;
+width = 32;
+},
+{
+position = 106;
+width = 50;
+},
+{
+position = 137;
+width = 95;
+},
+{
+position = 181;
+width = 34;
+},
+{
+position = 464;
+width = 27;
+},
+{
+position = 544;
+width = 22;
+},
+{
+position = 559;
+width = 35;
+},
+{
+position = 579;
+width = 50;
+}
+);
+};
+};
+vertWidth = 0;
+width = 658;
+}
+);
+note = "";
+}

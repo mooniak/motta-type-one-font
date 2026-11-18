@@ -1,0 +1,85 @@
+{
+glyphname = "hU-sinh";
+layers = (
+{
+layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
+shapes = (
+{
+pos = (10,0);
+ref = "ha-sinh";
+},
+{
+pos = (654,0);
+ref = "usign-sinh.alt3";
+}
+);
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = -199;
+width = 109;
+},
+{
+position = -199;
+width = 43;
+},
+{
+position = -36;
+width = 29;
+},
+{
+position = 1;
+width = 185;
+},
+{
+position = 300;
+width = 132;
+},
+{
+position = 364;
+width = 171;
+},
+{
+position = 438;
+width = 93;
+}
+);
+vhints = (
+{
+position = 26;
+width = 43;
+},
+{
+position = 74;
+width = 100;
+},
+{
+position = 175;
+width = 33;
+},
+{
+position = 222;
+width = 33;
+},
+{
+position = 325;
+width = 49;
+},
+{
+position = 551;
+width = 37;
+},
+{
+position = 567;
+width = 44;
+}
+);
+};
+};
+vertWidth = 0;
+width = 634;
+}
+);
+note = "";
+}

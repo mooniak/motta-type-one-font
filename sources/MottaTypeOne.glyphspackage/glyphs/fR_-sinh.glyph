@@ -1,0 +1,76 @@
+{
+glyphname = "fR-sinh";
+layers = (
+{
+layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
+shapes = (
+{
+ref = "f-sinh";
+},
+{
+pos = (663,5);
+ref = "rasign-sinh.long";
+}
+);
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = -196;
+width = 110;
+},
+{
+position = -1;
+width = 194;
+},
+{
+position = 509;
+width = 21;
+},
+{
+position = 524;
+width = 21;
+},
+{
+position = 625;
+width = 125;
+},
+{
+position = 686;
+width = 66;
+}
+);
+vhints = (
+{
+position = 18;
+width = 31;
+},
+{
+position = 70;
+width = 35;
+},
+{
+position = 459;
+width = 34;
+},
+{
+position = 459;
+width = 151;
+},
+{
+position = 524;
+width = 40;
+},
+{
+position = 551;
+width = 31;
+}
+);
+};
+};
+vertWidth = 0;
+width = 600;
+}
+);
+note = "";
+}

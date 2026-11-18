@@ -1,0 +1,93 @@
+{
+glyphname = "kRI-sinh";
+layers = (
+{
+layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
+shapes = (
+{
+pos = (747,1);
+ref = "rasign-sinh.long";
+},
+{
+pos = (-1,0);
+ref = "ka-sinh";
+},
+{
+pos = (725,-10);
+ref = "isign-sinh.alt1";
+}
+);
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = -200;
+width = 110;
+},
+{
+position = -5;
+width = 172;
+},
+{
+position = -5;
+width = 178;
+},
+{
+position = 235;
+width = 299;
+},
+{
+position = 443;
+width = 21;
+},
+{
+position = 481;
+width = 46;
+},
+{
+position = 625;
+width = 82;
+}
+);
+vhints = (
+{
+position = 27;
+width = 58;
+},
+{
+position = 32;
+width = 112;
+},
+{
+position = 154;
+width = 35;
+},
+{
+position = 253;
+width = 57;
+},
+{
+position = 439;
+width = 58;
+},
+{
+position = 608;
+width = 40;
+},
+{
+position = 610;
+width = 40;
+},
+{
+position = 665;
+width = 51;
+}
+);
+};
+};
+vertWidth = 0;
+width = 738;
+}
+);
+note = "";
+}

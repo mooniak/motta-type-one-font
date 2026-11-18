@@ -1,0 +1,80 @@
+{
+glyphname = "ghI-sinh";
+layers = (
+{
+layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
+shapes = (
+{
+ref = "gha-sinh";
+},
+{
+pos = (535,9);
+ref = "isign-sinh.alt";
+}
+);
+userData = {
+com.fontlab.hintData = {
+hhints = (
+{
+position = 2;
+width = 98;
+},
+{
+position = 159;
+width = 47;
+},
+{
+position = 301;
+width = 153;
+},
+{
+position = 302;
+width = 142;
+},
+{
+position = 501;
+width = 42;
+},
+{
+position = 540;
+width = 40;
+},
+{
+position = 581;
+width = 20;
+},
+{
+position = 640;
+width = 86;
+}
+);
+vhints = (
+{
+position = 17;
+width = 46;
+},
+{
+position = 17;
+width = 246;
+},
+{
+position = 39;
+width = 54;
+},
+{
+position = 445;
+width = 53;
+},
+{
+position = 478;
+width = 41;
+}
+);
+};
+};
+vertWidth = 0;
+width = 531;
+}
+);
+note = "";
+}
