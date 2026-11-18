@@ -1,5 +1,7 @@
-මොට්ට ටයිප් වන් / Motta Type One
+මොටා ටයිප් 1 / Motta Type One
 ==============
+
+[සිංහලෙන් කියවන්න / Read in Sinhala](README.si.md)
 
 [![Build][badge-build]][link-build]
 [![Fontspector QA][badge-qa]][link-qa]
@@ -15,15 +17,36 @@
 [link-release]: https://github.com/mooniak/motta-type-one-font/releases
 [link-license]: OFL.txt
 
-Motta Type One is a heavy, rounded Sinhala display typeface designed by Damith Welikala and
-published by [Mooniak](https://mooniak.com/) as a free font under the SIL Open Font License.
-
-*Motta* (මොට්ට) means blunt. The letters are built from thick, soft-ended strokes with small
-counters and almost no contrast, so they hold together as dark, friendly shapes at large sizes:
-headlines, posters, signage, packaging and titles. It is a single Regular weight.
+Motta Type One is a Sinhala headline typeface: Damith Welikala's 2020 revival of the Motta
+Type letters that Motagedara Wanigaratne designed for the *Aththa* newspaper in the 1960s. It is
+published by [Mooniak](https://mooniak.com/) as a free font under the SIL Open Font License, in
+a single Regular weight, for headlines, posters, signage and titles.
 
 ![Motta Type One specimen](documentation/image1.png)
 ![Motta Type One character set](documentation/image2.png)
+
+## History
+
+This font is based on a design chosen from the Motta Type collection of letter designs,
+created in the 1960s by Motagedara Wanigaratne for the *Aththa* (ඇත්ත) newspaper. For nearly
+half a century it shaped the main headline on *Aththa*'s front page, and in its day it was a
+very popular letter design.
+
+Its distinctive features are the extra weight given to the top and bottom edges of the
+letters, and terminals drawn from old Sinhala carving patterns. Several kinds of vowel signs
+(*pili*) are used depending on the character of each letter, and ka, ta and na (ක, ත, න) have
+their own ispilla (i-sign). As digital typography spread in Sri Lanka, many old metal-type
+designs fell out of use, and the Motta Type collection was among them.
+
+In 2020, type designer Damith Welikala recreated the design as a font, named Motta Type 1.
+
+### සිංහලෙන්
+
+ඇත්ත පුවත්පත වෙනුවෙන් 1960 දශකයේදී මොටාගෙදර වනිගරත්න සූරින් විසින් නිර්මාණය කරන ලද මොටා ටයිප් අකුරු මෝස්තර එකතුවෙන් තෝරාගත් මෝස්තරයක් ඇසුරින් මෙම ෆොනුරුව සකස් කොට ඇත. අඩසියවසකට ආසන්න කාලයක් පුරා ඇත්ත පුවත්පතේ මුල් පිටුවේ ප්‍රධාන සිරස්තලය හැඩ කරන්නට යොදා ගත් මෙම අකුරු මොස්තරය එවක ඉතාමත් ජනප්‍රියත්වයට පත්ව තිබූ අකුරු මෝස්තරයක් විය.
+
+අක්‍ෂරවල ඉහළ සහ පහළ දාර වැඩි ගණකමකින් යුතුව නිර්මාණය වී තිබීමත් අක්‍ෂරාන්ත (Typographic terminals) සඳහා පැරණි සිංහල කැටයම් රටා භාවිත කොට තිබීමත් මෙහි ඇති විශේෂත්වයයි. අක්‍ෂරයේ ස්වභාවය අනුව පිලි වර්ග කිහිපයක් භාවිතා කොට ඇති අතර ක,ත,න අක්‍ෂර 3 සඳහා වෙනම ඉස්පිල්ලක් භාවිත වී තිබීමද විශේෂත්වයකි. පරිගණක අක්‍ෂර කලාව මෙරට ප්‍රචලිත වීමත් සමඟ පැරණි අච්චු අකුරු මෝස්තර රැසක්ම භාවිතයෙන් ඉවත් වූ අතර මොටා ටයිප් අකුරු මෝස්තර එකතුව ද ඒ අතර විය.
+
+අක්‍ෂර නිර්මාණ ශිල්පී දමිත් වැලිකල විසින් 2020 වසරේ දී Motta Type 1 නමින් මෙම අකුරු මෝස්තරය ෆොනුරුවක් ලෙස ප්‍රතිනිර්මාණය කරන ලද.
 
 ## Get the font
 
@@ -188,7 +211,8 @@ against `dev`, make changes in `sources/MottaTypeOne.glyphspackage` with Glyphs 
 
 ## Credits
 
-- **Design:** Damith Welikala (2020)
+- **Original letter design:** Motagedara Wanigaratne, Motta Type, for the *Aththa* newspaper (1960s)
+- **Font design:** Damith Welikala (2020)
 - **Production and publishing:** [Mooniak](https://mooniak.com/)
 
 ## Changelog
@@ -203,7 +227,7 @@ against `dev`, make changes in `sources/MottaTypeOne.glyphspackage` with Glyphs 
 - Added no-break space and dotted circle; Google Fonts vertical metrics (line height 1.2 em);
   Mooniak copyright, designer, vendor ID and OFL licence in the font.
 
-**2020, version 1.000.** Original design by Damith Welikala, made in FontForge.
+**2020, version 1.000.** Damith Welikala's revival of Motta Type, made in FontForge.
 
 ## License
 

@@ -655,6 +655,15 @@ value = "Copyright 2020 The Motta Type One Project Authors (https://github.com/m
 );
 },
 {
+key = descriptions;
+values = (
+{
+language = dflt;
+value = "Motta Type One revives Motta Type, the 1960s headline letters Motagedara Wanigaratne designed for the Aththa newspaper. Font by Damith Welikala, 2020.";
+}
+);
+},
+{
 key = designers;
 values = (
 {
