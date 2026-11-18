@@ -3,6 +3,10 @@
 .formatVersion = 3;
 customParameters = (
 {
+name = vendorID;
+value = MNIK;
+},
+{
 name = hheaAscender;
 value = 799;
 },
@@ -30,53 +34,6 @@ value = -200;
 {
 name = typoLineGap;
 value = 0;
-},
-{
-name = isFixedPitch;
-value = 0;
-},
-{
-name = underlinePosition;
-value = 0;
-},
-{
-name = underlineThickness;
-value = 0;
-},
-{
-name = versionString;
-value = "Version 1.000";
-},
-{
-name = vendorID;
-value = txtl;
-},
-{
-name = postscriptFullName;
-value = MottaTypeOne;
-},
-{
-name = postscriptFontName;
-value = MottaTypeOne;
-},
-{
-name = openTypeOS2FamilyClass;
-value = (
-0,
-0
-);
-},
-{
-name = postscriptWeightName;
-value = Regular;
-},
-{
-name = styleMapFamilyName;
-value = MottaTypeOne;
-},
-{
-name = styleMapStyleName;
-value = regular;
 },
 {
 name = winAscent;
@@ -565,7 +522,7 @@ lookup sin_rakar_ss02 {
     sub \\va-sinh \\virama-sinh \\zerowidthjoiner \\ra-sinh  by \\vRa-sinh;
 } sin_rakar_ss02;
 ";
-name = "<anonymous>";
+name = lookups;
 }
 );
 features = (
@@ -666,53 +623,6 @@ name = typoLineGap;
 value = 0;
 },
 {
-name = isFixedPitch;
-value = 0;
-},
-{
-name = underlinePosition;
-value = 0;
-},
-{
-name = underlineThickness;
-value = 0;
-},
-{
-name = versionString;
-value = "Version 1.000";
-},
-{
-name = vendorID;
-value = txtl;
-},
-{
-name = postscriptFullName;
-value = MottaTypeOne;
-},
-{
-name = postscriptFontName;
-value = MottaTypeOne;
-},
-{
-name = openTypeOS2FamilyClass;
-value = (
-0,
-0
-);
-},
-{
-name = postscriptWeightName;
-value = Regular;
-},
-{
-name = styleMapFamilyName;
-value = MottaTypeOne;
-},
-{
-name = styleMapStyleName;
-value = regular;
-},
-{
 name = winAscent;
 value = 799;
 },
@@ -786,12 +696,6 @@ type = descender;
 },
 {
 type = "italic angle";
-}
-);
-properties = (
-{
-key = copyrights;
-value = "Copyright (c) 2020 Damith Welikala, Mooniak, Akuru Foundry";
 }
 );
 stems = (
