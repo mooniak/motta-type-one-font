@@ -93,7 +93,6 @@ vertWidth = 0;
 width = 955;
 }
 );
-note = "";
 subCategory = Spacing;
 unicode = 3549;
 }

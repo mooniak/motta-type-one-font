@@ -77,7 +77,6 @@ vertWidth = 0;
 width = 835;
 }
 );
-note = "";
 subCategory = Spacing;
 unicode = 3546;
 }

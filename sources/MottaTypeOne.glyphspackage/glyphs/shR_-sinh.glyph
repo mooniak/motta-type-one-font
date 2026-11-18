@@ -5,10 +5,12 @@ layers = (
 layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
 shapes = (
 {
+alignment = -1;
 pos = (-17,0);
 ref = "shRa-sinh";
 },
 {
+alignment = -1;
 pos = (592,1);
 ref = "virama-sinh";
 }
@@ -85,5 +87,4 @@ vertWidth = 0;
 width = 747;
 }
 );
-note = "";
 }

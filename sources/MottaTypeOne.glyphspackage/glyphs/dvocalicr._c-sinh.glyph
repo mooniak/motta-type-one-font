@@ -5,9 +5,11 @@ layers = (
 layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
 shapes = (
 {
+alignment = -1;
 ref = "da-sinh";
 },
 {
+alignment = -1;
 pos = (458,0);
 ref = "vocalicrsign-sinh";
 }
@@ -76,9 +78,7 @@ width = 42;
 );
 };
 };
-vertWidth = 0;
 width = 768;
 }
 );
-note = "";
 }
