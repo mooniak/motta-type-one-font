@@ -7,7 +7,7 @@ layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
 shapes = (
 {
 alignment = -1;
-pos = (663,-17);
+pos = (853,-22);
 ref = "aasign-sinh";
 },
 {
@@ -67,7 +67,7 @@ width = 20;
 );
 };
 };
-width = 941;
+width = 1210;
 }
 );
 subCategory = Spacing;

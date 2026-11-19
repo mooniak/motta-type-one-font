@@ -5,7 +5,7 @@ layers = (
 layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
 shapes = (
 {
-pos = (608,0);
+pos = (782,0);
 ref = "rasign-sinh.medium";
 },
 {
@@ -81,7 +81,7 @@ width = 40;
 };
 };
 vertWidth = 0;
-width = 547;
+width = 704;
 }
 );
 }

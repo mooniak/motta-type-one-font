@@ -10,7 +10,7 @@ ref = "da-sinh";
 },
 {
 alignment = -1;
-pos = (458,0);
+pos = (589,0);
 ref = "vocalicrsign-sinh";
 }
 );
@@ -78,7 +78,7 @@ width = 42;
 );
 };
 };
-width = 768;
+width = 988;
 }
 );
 }

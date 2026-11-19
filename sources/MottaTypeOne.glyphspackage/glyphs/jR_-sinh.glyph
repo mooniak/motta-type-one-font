@@ -6,7 +6,7 @@ layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
 shapes = (
 {
 alignment = -1;
-pos = (1,6);
+pos = (1,8);
 ref = "jRa-sinh";
 }
 );
@@ -78,7 +78,7 @@ width = 50;
 );
 };
 };
-width = 566;
+width = 728;
 }
 );
 }

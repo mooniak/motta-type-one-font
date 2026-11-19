@@ -10,7 +10,7 @@ ref = "a-sinh";
 },
 {
 alignment = -1;
-pos = (516,0);
+pos = (664,0);
 ref = "aasign-sinh";
 }
 );
@@ -70,7 +70,7 @@ width = 20;
 );
 };
 };
-width = 799;
+width = 1028;
 }
 );
 unicode = 3462;

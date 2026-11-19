@@ -11,7 +11,7 @@ ref = "hRa-sinh";
 },
 {
 alignment = -1;
-pos = (594,45);
+pos = (764,58);
 ref = "virama-sinh";
 }
 );
@@ -92,7 +92,7 @@ width = 44;
 };
 };
 vertWidth = 0;
-width = 624;
+width = 803;
 }
 );
 }

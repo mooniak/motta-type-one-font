@@ -8,7 +8,7 @@ shapes = (
 ref = "ga-sinh";
 },
 {
-pos = (613,43);
+pos = (788,55);
 ref = "virama-sinh";
 }
 );
@@ -65,7 +65,7 @@ width = 44;
 };
 };
 vertWidth = 0;
-width = 623;
+width = 801;
 }
 );
 }

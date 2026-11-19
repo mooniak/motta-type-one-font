@@ -581,11 +581,11 @@ value = 1;
 },
 {
 name = hheaAscender;
-value = 900;
+value = 1158;
 },
 {
 name = hheaDescender;
-value = -300;
+value = -386;
 },
 {
 name = hheaLineGap;
@@ -598,11 +598,11 @@ value = (
 },
 {
 name = typoAscender;
-value = 900;
+value = 1158;
 },
 {
 name = typoDescender;
-value = -300;
+value = -386;
 },
 {
 name = typoLineGap;
@@ -610,15 +610,15 @@ value = 0;
 },
 {
 name = winAscent;
-value = 900;
+value = 1158;
 },
 {
 name = winDescent;
-value = 300;
+value = 386;
 },
 {
 name = weightClass;
-value = 400;
+value = 514;
 },
 {
 name = widthClass;
@@ -628,18 +628,18 @@ value = 5;
 id = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
 metricValues = (
 {
-pos = 770;
+pos = 990;
 },
 {
-pos = 578;
+pos = 743;
 },
 {
-pos = 385;
+pos = 495;
 },
 {
 },
 {
-pos = -193;
+pos = -248;
 },
 {
 }
@@ -658,7 +658,7 @@ name = Regular;
 kerningLTR = {
 "A2EEB254-2E98-462C-A2E8-C11F5846108B" = {
 "bIi-sinh" = {
-"ba-sinh" = 10;
+"ba-sinh" = 12.862;
 };
 };
 };

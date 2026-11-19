@@ -8,7 +8,7 @@ shapes = (
 ref = "ka-sinh";
 },
 {
-pos = (731,9);
+pos = (940,12);
 ref = "iisign-sinh.alt1";
 }
 );
@@ -73,7 +73,7 @@ width = 51;
 };
 };
 vertWidth = 0;
-width = 741;
+width = 953;
 }
 );
 }

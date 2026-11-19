@@ -10,7 +10,7 @@ ref = "o-sinh";
 },
 {
 alignment = -1;
-pos = (543,1);
+pos = (698,1);
 ref = "vocaliclsign-sinh";
 }
 );
@@ -66,7 +66,7 @@ width = 22;
 );
 };
 };
-width = 864;
+width = 1111;
 }
 );
 unicode = 3478;

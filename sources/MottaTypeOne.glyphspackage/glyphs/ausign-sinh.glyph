@@ -7,12 +7,12 @@ layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
 shapes = (
 {
 alignment = -1;
-pos = (743,0);
+pos = (956,0);
 ref = "vocaliclsign-sinh";
 },
 {
 alignment = -1;
-pos = (30,0);
+pos = (39,0);
 ref = "esign-sinh";
 }
 );
@@ -84,7 +84,7 @@ width = 22;
 );
 };
 };
-width = 1212;
+width = 1559;
 }
 );
 subCategory = Spacing;

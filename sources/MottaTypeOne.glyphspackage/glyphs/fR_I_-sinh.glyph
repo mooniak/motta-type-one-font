@@ -8,7 +8,7 @@ shapes = (
 ref = "fRa-sinh";
 },
 {
-pos = (577,16);
+pos = (742,21);
 ref = "isign-sinh";
 }
 );
@@ -69,7 +69,7 @@ width = 31;
 };
 };
 vertWidth = 0;
-width = 609;
+width = 783;
 }
 );
 }

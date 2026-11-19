@@ -6,12 +6,12 @@ layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
 shapes = (
 {
 alignment = -1;
-pos = (-17,0);
+pos = (-22,0);
 ref = "shRa-sinh";
 },
 {
 alignment = -1;
-pos = (592,1);
+pos = (761,1);
 ref = "virama-sinh";
 }
 );
@@ -84,7 +84,7 @@ width = 40;
 };
 };
 vertWidth = 0;
-width = 747;
+width = 961;
 }
 );
 }

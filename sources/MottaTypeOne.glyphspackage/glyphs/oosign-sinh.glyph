@@ -6,11 +6,11 @@ layers = (
 layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
 shapes = (
 {
-pos = (978,0);
+pos = (1258,0);
 ref = "virama-sinh";
 },
 {
-pos = (663,-17);
+pos = (853,-22);
 ref = "aasign-sinh";
 },
 {
@@ -90,7 +90,7 @@ width = 20;
 };
 };
 vertWidth = 0;
-width = 955;
+width = 1228;
 }
 );
 subCategory = Spacing;

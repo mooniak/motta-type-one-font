@@ -8,7 +8,7 @@ shapes = (
 ref = "jIi-sinh";
 },
 {
-pos = (627,4);
+pos = (806,5);
 ref = "rasign-sinh.short";
 }
 );
@@ -109,7 +109,7 @@ width = 40;
 };
 };
 vertWidth = 0;
-width = 562;
+width = 723;
 }
 );
 }

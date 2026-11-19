@@ -5,11 +5,11 @@ layers = (
 layerId = "A2EEB254-2E98-462C-A2E8-C11F5846108B";
 shapes = (
 {
-pos = (1026,26);
+pos = (1320,33);
 ref = "virama-sinh";
 },
 {
-pos = (-15,0);
+pos = (-19,0);
 ref = "kSsa-sinh";
 }
 );
@@ -98,7 +98,7 @@ width = 51;
 };
 };
 vertWidth = 0;
-width = 1217;
+width = 1565;
 }
 );
 }

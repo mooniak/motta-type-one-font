@@ -8,7 +8,7 @@ shapes = (
 ref = "gha-sinh";
 },
 {
-pos = (537,5);
+pos = (691,6);
 ref = "iisign-sinh.alt";
 }
 );
@@ -81,7 +81,7 @@ width = 41;
 };
 };
 vertWidth = 0;
-width = 531;
+width = 683;
 }
 );
 }

@@ -8,7 +8,7 @@ shapes = (
 ref = "ca-sinh";
 },
 {
-pos = (542,0);
+pos = (697,0);
 ref = "uusign-sinh";
 }
 );
@@ -69,7 +69,7 @@ width = 39;
 };
 };
 vertWidth = 0;
-width = 538;
+width = 692;
 }
 );
 }
