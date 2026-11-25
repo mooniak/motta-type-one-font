@@ -30,7 +30,7 @@ name = Languagesystems;
 },
 {
 code = "# lankafea:generated v1 — do not edit; regenerate with lankafea
-# classes: ";
+# classes sinhala: ";
 name = "lankafea-manifest";
 }
 );
@@ -76,13 +76,6 @@ tag = akhn;
 },
 {
 code = "# lankafea:generated v1 — do not edit; regenerate with lankafea
-lookup Reph {
-    sub ra-sinh virama-sinh zerowidthjoiner by repha-sinh;  # ra + virama + zwj -> repaya
-} Reph;";
-tag = rphf;
-},
-{
-code = "# lankafea:generated v1 — do not edit; regenerate with lankafea
 # rakaransaya / yansaya / touching sign
 lookup BelowBaseForms {
     sub virama-sinh zerowidthjoiner ra-sinh by rasign-sinh;  # virama + zwj + ra -> rakaransaya
@@ -117,7 +110,6 @@ lookup RakarLigatures {
     sub kh-sinh rasign-sinh by khRa-sinh;  # kh + rasign
     sub c-sinh rasign-sinh by cRa-sinh;  # c + rasign
     sub j-sinh rasign-sinh by jRa-sinh;  # j + rasign
-    sub jh-sinh rasign-sinh by jhRa-sinh;  # jh + rasign
     sub tt-sinh rasign-sinh by ttRa-sinh;  # tt + rasign
     sub dd-sinh rasign-sinh by ddRa-sinh;  # dd + rasign
     sub dh-sinh rasign-sinh by dhRa-sinh;  # dh + rasign
@@ -136,12 +128,10 @@ lookup PureConsonants {
     sub kha-sinh virama-sinh by kh-sinh;  # kha + virama
     sub ga-sinh virama-sinh by g-sinh;  # ga + virama
     sub gha-sinh virama-sinh by gh-sinh;  # gha + virama
-    sub nga-sinh virama-sinh by ng-sinh;  # nga + virama
     sub nnga-sinh virama-sinh by nng-sinh;  # nnga + virama
     sub ca-sinh virama-sinh by c-sinh;  # ca + virama
     sub cha-sinh virama-sinh by ch-sinh;  # cha + virama
     sub ja-sinh virama-sinh by j-sinh;  # ja + virama
-    sub jha-sinh virama-sinh by jh-sinh;  # jha + virama
     sub nya-sinh virama-sinh by ny-sinh;  # nya + virama
     sub tta-sinh virama-sinh by tt-sinh;  # tta + virama
     sub ttha-sinh virama-sinh by tth-sinh;  # ttha + virama
@@ -184,7 +174,6 @@ lookup PureConjuncts {
     sub dhRa-sinh virama-sinh by dhR-sinh;  # dhRa + virama
     sub fRa-sinh virama-sinh by fR-sinh;  # fRa + virama
     sub gRa-sinh virama-sinh by gR-sinh;  # gRa + virama
-    sub ghRa-sinh virama-sinh by ghR-sinh;  # ghRa + virama
     sub hRa-sinh virama-sinh by hR-sinh;  # hRa + virama
     sub jRa-sinh virama-sinh by jR-sinh;  # jRa + virama
     sub kSsa-sinh virama-sinh by kSs-sinh;  # kSsa + virama
@@ -292,8 +281,6 @@ lookup VowelLig_abvs {
     sub ch-sinh iisign-sinh by chIi-sinh;  # ch + iisign
     sub j-sinh isign-sinh by jI-sinh;  # j + isign
     sub j-sinh iisign-sinh by jIi-sinh;  # j + iisign
-    sub jh-sinh isign-sinh by jhI-sinh;  # jh + isign
-    sub jh-sinh iisign-sinh by jhIi-sinh;  # jh + iisign
     sub tt-sinh isign-sinh by ttI-sinh;  # tt + isign
     sub tt-sinh iisign-sinh by ttIi-sinh;  # tt + iisign
     sub tth-sinh isign-sinh by tthI-sinh;  # tth + isign
@@ -432,8 +419,6 @@ lookup VowelLig_blws {
     sub tha-sinh uusign-sinh by thUu-sinh;  # tha + uusign
     sub da-sinh usign-sinh by dU-sinh;  # da + usign
     sub da-sinh uusign-sinh by dUu-sinh;  # da + uusign
-    sub da-sinh vocalicrsign-sinh by dvocalicr._c-sinh;  # da + vocalicrsign (below-base ._c)
-    sub da-sinh vocalicrrsign-sinh by dvocalicrr._c-sinh;  # da + vocalicrrsign (below-base ._c)
     sub dha-sinh usign-sinh by dhU-sinh;  # dha + usign
     sub dha-sinh uusign-sinh by dhUu-sinh;  # dha + uusign
     sub na-sinh usign-sinh by nU-sinh;  # na + usign
@@ -482,8 +467,6 @@ lookup VowelLig_blws {
     sub ch-sinh uusign-sinh by chUu-sinh;  # ch + uusign
     sub j-sinh usign-sinh by jU-sinh;  # j + usign
     sub j-sinh uusign-sinh by jUu-sinh;  # j + uusign
-    sub jh-sinh usign-sinh by jhU-sinh;  # jh + usign
-    sub jh-sinh uusign-sinh by jhUu-sinh;  # jh + uusign
     sub tt-sinh usign-sinh by ttU-sinh;  # tt + usign
     sub tt-sinh uusign-sinh by ttUu-sinh;  # tt + uusign
     sub tth-sinh usign-sinh by tthU-sinh;  # tth + usign
@@ -537,39 +520,68 @@ tag = blws;
 {
 code = "# lankafea:generated v1 — do not edit; regenerate with lankafea
 lookup VowelLig_psts {
-    sub nya-sinh aasign-sinh by nyaa._c-sinh;  # nya + aasign (below-base ._c)
-    sub nya-sinh aesign-sinh by nyae._c-sinh;  # nya + aesign (below-base ._c)
-    sub nya-sinh aaesign-sinh by nyaae._c-sinh;  # nya + aaesign (below-base ._c)
-    sub da-sinh aasign-sinh by daa._c-sinh;  # da + aasign (below-base ._c)
-    sub da-sinh aesign-sinh by dae._c-sinh;  # da + aesign (below-base ._c)
-    sub da-sinh aaesign-sinh by daae._c-sinh;  # da + aaesign (below-base ._c)
-    sub nda-sinh aasign-sinh by ndaa._c-sinh;  # nda + aasign (below-base ._c)
-    sub nda-sinh aesign-sinh by ndae._c-sinh;  # nda + aesign (below-base ._c)
-    sub nda-sinh aaesign-sinh by ndaae._c-sinh;  # nda + aaesign (below-base ._c)
     sub ra-sinh aesign-sinh by rAe-sinh;  # ra + aesign
     sub ra-sinh aaesign-sinh by rAae-sinh;  # ra + aaesign
-    sub jnya-sinh aasign-sinh by jnyaa._c-sinh;  # jnya + aasign (below-base ._c)
-    sub jnya-sinh aesign-sinh by jnyae._c-sinh;  # jnya + aesign (below-base ._c)
-    sub jnya-sinh aaesign-sinh by jnyaae._c-sinh;  # jnya + aaesign (below-base ._c)
     sub r-sinh aesign-sinh by rAe-sinh;  # r + aesign
     sub r-sinh aaesign-sinh by rAae-sinh;  # r + aaesign
-    sub nDa-sinh aasign-sinh by nDaa._c-sinh;  # nDa + aasign (below-base ._c)
-    sub nDa-sinh aesign-sinh by nDae._c-sinh;  # nDa + aesign (below-base ._c)
-    sub nDa-sinh aaesign-sinh by nDaae._c-sinh;  # nDa + aaesign (below-base ._c)
 } VowelLig_psts;
-# below-base ._c ligature + virama
-lookup DaShapeViramaChained {
-    sub nyaa._c-sinh virama-sinh by nyaa_virama._c-sinh;  # nyaa._c + virama
-    sub daa._c-sinh virama-sinh by daa_virama._c-sinh;  # daa._c + virama
-    sub ndaa._c-sinh virama-sinh by ndaa_virama._c-sinh;  # ndaa._c + virama
-    sub jnyaa._c-sinh virama-sinh by jnyaa_virama._c-sinh;  # jnyaa._c + virama
-    sub nDaa._c-sinh virama-sinh by nDaa_virama._c-sinh;  # nDaa._c + virama
-} DaShapeViramaChained;
 # split-matra right components with virama
 lookup SignVirama {
     sub aasign-sinh virama-sinh by aasign_virama-sinh;  # aasign + virama
 } SignVirama;";
 tag = psts;
+},
+{
+code = "# lankafea:generated v1 — do not edit; regenerate with lankafea
+sub iisign-sinh from [iisign-sinh iisign-sinh.alt1 iisign-sinh.alt2 iisign-sinh.alt3];  # alternates of iisign
+sub isign-sinh from [isign-sinh isign-sinh.alt isign-sinh.alt2 isign-sinh.alt3];  # alternates of isign
+sub usign-sinh from [usign-sinh usign-sinh.alt usign-sinh.alt2 usign-sinh.alt3];  # alternates of usign
+sub uusign-sinh from [uusign-sinh uusign-sinh.alt1 uusign-sinh.alt2 uusign-sinh.alt3];  # alternates of uusign";
+tag = aalt;
+},
+{
+code = "# lankafea:generated v1 — do not edit; regenerate with lankafea
+featureNames {
+    name \"Da Forms\";
+};
+# Da forms: below-base signs on da-shaped bases
+lookup DaShape {
+    sub da-sinh vocalicrsign-sinh by dvocalicr._c-sinh;  # da + vocalicrsign (below-base ._c)
+    sub da-sinh vocalicrrsign-sinh by dvocalicrr._c-sinh;  # da + vocalicrrsign (below-base ._c)
+} DaShape;
+lookup StylisticSet01 {
+    sub iisign-sinh by iisign-sinh.alt1;  # iisign -> iisign-sinh.alt1
+    sub isign-sinh by isign-sinh.alt;  # isign -> isign-sinh.alt
+    sub usign-sinh by usign-sinh.alt;  # usign -> usign-sinh.alt
+    sub uusign-sinh by uusign-sinh.alt1;  # uusign -> uusign-sinh.alt1
+} StylisticSet01;";
+tag = ss01;
+},
+{
+code = "# lankafea:generated v1 — do not edit; regenerate with lankafea
+featureNames {
+    name \"Fa\";
+};
+lookup StylisticSet02 {
+    sub iisign-sinh by iisign-sinh.alt2;  # iisign -> iisign-sinh.alt2
+    sub isign-sinh by isign-sinh.alt2;  # isign -> isign-sinh.alt2
+    sub usign-sinh by usign-sinh.alt2;  # usign -> usign-sinh.alt2
+    sub uusign-sinh by uusign-sinh.alt2;  # uusign -> uusign-sinh.alt2
+} StylisticSet02;";
+tag = ss02;
+},
+{
+code = "# lankafea:generated v1 — do not edit; regenerate with lankafea
+featureNames {
+    name \"Historical forms\";
+};
+lookup StylisticSet03 {
+    sub iisign-sinh by iisign-sinh.alt3;  # iisign -> iisign-sinh.alt3
+    sub isign-sinh by isign-sinh.alt3;  # isign -> isign-sinh.alt3
+    sub usign-sinh by usign-sinh.alt3;  # usign -> usign-sinh.alt3
+    sub uusign-sinh by uusign-sinh.alt3;  # uusign -> uusign-sinh.alt3
+} StylisticSet03;";
+tag = ss03;
 }
 );
 fontMaster = (
