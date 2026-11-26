@@ -1,0 +1,247 @@
+[
+ {
+  "family": "Motta Type One",
+  "commit": "16f83ed09d216cb518e57f52cf6dcc6396198bb3",
+  "commit_short": "16f83ed",
+  "version": "1.000",
+  "generated_at": "2026-11-26T15:19:26Z",
+  "stage": {
+   "n": 6,
+   "name": "Aspirates and dense derivatives",
+   "cumulative": 77,
+   "total": 110,
+   "gate_met": true,
+   "kernel_checkable_complete": false,
+   "kernel_complete": null,
+   "unverified_kernel_entries": [
+    "classic-conjuncts",
+    "conjunct-i-forms",
+    "ksha",
+    "rakaransaya",
+    "repaya",
+    "yansaya"
+   ]
+  },
+  "qa": {
+   "profile": "mooniak",
+   "verdict": "warn",
+   "pass_rate": 77,
+   "counts": {
+    "WARN": 12,
+    "SKIP": 51,
+    "INFO": 12,
+    "PASS": 82
+   },
+   "total_checks": 157
+  },
+  "run_url": "https://github.com/mooniak/motta-type-one-font/actions/runs/45847705024",
+  "ref_name": "dev",
+  "channel": "canary",
+  "repository": "mooniak/motta-type-one-font"
+ },
+ {
+  "family": "Motta Type One",
+  "commit": "250e85e46a49598340ce459bdc6a65f78ae10e85",
+  "commit_short": "250e85e",
+  "version": "1.000",
+  "generated_at": "2026-11-25T08:38:03Z",
+  "stage": {
+   "n": 6,
+   "name": "Aspirates and dense derivatives",
+   "cumulative": 77,
+   "total": 110,
+   "gate_met": true,
+   "kernel_checkable_complete": false,
+   "kernel_complete": null,
+   "unverified_kernel_entries": [
+    "classic-conjuncts",
+    "conjunct-i-forms",
+    "ksha",
+    "rakaransaya",
+    "repaya",
+    "yansaya"
+   ]
+  },
+  "qa": {
+   "profile": "googlefonts",
+   "verdict": "fail",
+   "pass_rate": 69,
+   "counts": {
+    "FAIL": 5,
+    "WARN": 17,
+    "SKIP": 86,
+    "INFO": 20,
+    "PASS": 94
+   },
+   "total_checks": 222
+  },
+  "run_url": "https://github.com/mooniak/motta-type-one-font/actions/runs/45577874761",
+  "ref_name": "dev",
+  "channel": "canary",
+  "repository": "mooniak/motta-type-one-font"
+ },
+ {
+  "family": "Motta Type One",
+  "commit": "f42795ff59d05da28198e598b9dc5ef1f44b3827",
+  "commit_short": "f42795f",
+  "version": "1.000",
+  "generated_at": "2026-11-18T13:43:02Z",
+  "stage": {
+   "n": 6,
+   "name": "Aspirates and dense derivatives",
+   "cumulative": 77,
+   "total": 110,
+   "gate_met": true,
+   "kernel_checkable_complete": false,
+   "kernel_complete": null,
+   "unverified_kernel_entries": [
+    "classic-conjuncts",
+    "conjunct-i-forms",
+    "ksha",
+    "rakaransaya",
+    "repaya",
+    "yansaya"
+   ]
+  },
+  "qa": {
+   "profile": "googlefonts",
+   "verdict": "fail",
+   "pass_rate": 71,
+   "counts": {
+    "FAIL": 4,
+    "WARN": 17,
+    "SKIP": 86,
+    "INFO": 19,
+    "PASS": 96
+   },
+   "total_checks": 222
+  },
+  "run_url": "https://github.com/mooniak/motta-type-one-font/actions/runs/44316358340",
+  "ref_name": "dev",
+  "channel": "canary",
+  "repository": "mooniak/motta-type-one-font"
+ },
+ {
+  "family": "Motta Type One",
+  "commit": "252d3b1c67006148bdc7f68ee65c9afcb8f03111",
+  "commit_short": "252d3b1",
+  "version": "1.000",
+  "generated_at": "2026-11-18T13:35:25Z",
+  "stage": {
+   "n": 6,
+   "name": "Aspirates and dense derivatives",
+   "cumulative": 77,
+   "total": 110,
+   "gate_met": true,
+   "kernel_checkable_complete": false,
+   "kernel_complete": null,
+   "unverified_kernel_entries": [
+    "classic-conjuncts",
+    "conjunct-i-forms",
+    "ksha",
+    "rakaransaya",
+    "repaya",
+    "yansaya"
+   ]
+  },
+  "qa": {
+   "profile": "googlefonts",
+   "verdict": "fail",
+   "pass_rate": 71,
+   "counts": {
+    "FAIL": 4,
+    "WARN": 17,
+    "SKIP": 86,
+    "INFO": 19,
+    "PASS": 96
+   },
+   "total_checks": 222
+  },
+  "run_url": "https://github.com/mooniak/motta-type-one-font/actions/runs/44315047993",
+  "ref_name": "dev",
+  "channel": "canary",
+  "repository": "mooniak/motta-type-one-font"
+ },
+ {
+  "family": "Motta Type One",
+  "commit": "067fa6e2c91c8f9e5211f8201539a16b0e0f9f7c",
+  "commit_short": "067fa6e",
+  "version": "1.000",
+  "generated_at": "2026-11-18T13:07:02Z",
+  "stage": {
+   "n": 6,
+   "name": "Aspirates and dense derivatives",
+   "cumulative": 77,
+   "total": 110,
+   "gate_met": true,
+   "kernel_checkable_complete": false,
+   "kernel_complete": null,
+   "unverified_kernel_entries": [
+    "classic-conjuncts",
+    "conjunct-i-forms",
+    "ksha",
+    "rakaransaya",
+    "repaya",
+    "yansaya"
+   ]
+  },
+  "qa": {
+   "profile": "googlefonts",
+   "verdict": "fail",
+   "pass_rate": 71,
+   "counts": {
+    "FAIL": 4,
+    "WARN": 17,
+    "SKIP": 86,
+    "INFO": 19,
+    "PASS": 96
+   },
+   "total_checks": 222
+  },
+  "run_url": "https://github.com/mooniak/motta-type-one-font/actions/runs/44310290906",
+  "ref_name": "dev",
+  "channel": "canary",
+  "repository": "mooniak/motta-type-one-font"
+ },
+ {
+  "family": "Motta Type One",
+  "commit": "f226be2dcfc77513e39ca0ba5c81b097eda1a2e9",
+  "commit_short": "f226be2",
+  "version": "1.000",
+  "generated_at": "2026-11-18T13:03:55Z",
+  "stage": {
+   "n": 6,
+   "name": "Aspirates and dense derivatives",
+   "cumulative": 77,
+   "total": 110,
+   "gate_met": true,
+   "kernel_checkable_complete": false,
+   "kernel_complete": null,
+   "unverified_kernel_entries": [
+    "classic-conjuncts",
+    "conjunct-i-forms",
+    "ksha",
+    "rakaransaya",
+    "repaya",
+    "yansaya"
+   ]
+  },
+  "qa": {
+   "profile": "googlefonts",
+   "verdict": "fail",
+   "pass_rate": 71,
+   "counts": {
+    "FAIL": 4,
+    "WARN": 17,
+    "SKIP": 86,
+    "INFO": 19,
+    "PASS": 96
+   },
+   "total_checks": 222
+  },
+  "run_url": "https://github.com/mooniak/motta-type-one-font/actions/runs/44309739483",
+  "ref_name": "dev",
+  "channel": "canary",
+  "repository": "mooniak/motta-type-one-font"
+ }
+]

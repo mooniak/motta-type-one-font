@@ -1,0 +1,133 @@
+{
+  "id": "motta-type-one",
+  "family": "Motta Type One",
+  "scripts": [
+    "Sinh"
+  ],
+  "version": "1.000",
+  "channel": "canary",
+  "commit": "250e85e46a49598340ce459bdc6a65f78ae10e85",
+  "commit_short": "250e85e",
+  "ref_name": "dev",
+  "repository": "mooniak/motta-type-one-font",
+  "run_url": "https://github.com/mooniak/motta-type-one-font/actions/runs/45577874761",
+  "actor": "pathumego",
+  "generated_at": "2026-11-25T08:38:03Z",
+  "qa": {
+    "profile": "googlefonts",
+    "verdict": "fail",
+    "pass_rate": 69,
+    "counts": {
+      "FAIL": 5,
+      "WARN": 17,
+      "SKIP": 86,
+      "INFO": 20,
+      "PASS": 94
+    },
+    "total_checks": 222
+  },
+  "stage": {
+    "n": 6,
+    "name": "Aspirates and dense derivatives",
+    "cumulative": 77,
+    "total": 110,
+    "gate_met": true,
+    "kernel_checkable_complete": false,
+    "kernel_complete": null,
+    "unverified_kernel_entries": [
+      "classic-conjuncts",
+      "conjunct-i-forms",
+      "ksha",
+      "rakaransaya",
+      "repaya",
+      "yansaya"
+    ]
+  },
+  "files": [
+    {
+      "path": "fonts/otf/MottaTypeOneCANARY-Regular.otf",
+      "format": "otf",
+      "bytes": 94908,
+      "sha256": "87801284c15f897f4d55fdb251240297497ed64c0d7b672c81c1ad061f668c5f",
+      "style": "Regular",
+      "kind": "static"
+    },
+    {
+      "path": "fonts/ttf/MottaTypeOneCANARY-Regular.ttf",
+      "format": "ttf",
+      "bytes": 248840,
+      "sha256": "0dd089bb62bd1efbc1f569256e4767b0d9266c17e78353035bf766f591672562",
+      "style": "Regular",
+      "kind": "static"
+    },
+    {
+      "path": "fonts/webfonts/MottaTypeOneCANARY-Regular.woff2",
+      "format": "woff2",
+      "bytes": 77960,
+      "sha256": "24a3d817c873ec889de7834ccc2ab946bc921d270cf7e24ad59e76e2f82e5dd1",
+      "style": "Regular",
+      "kind": "static"
+    }
+  ],
+  "proof_gate": {
+    "stage": 6,
+    "gated": true,
+    "shown": [
+      "display-strings",
+      "indo-arabic-numerals",
+      "kern-pairs",
+      "libreoffice-ui-strings",
+      "marks",
+      "numerals",
+      "prose",
+      "punctuation",
+      "shape-groups",
+      "signs-combinations",
+      "sinhala-alphabet",
+      "sinhala-pangram",
+      "spacing_strings",
+      "structured-texts",
+      "test-texts-stages"
+    ],
+    "withheld": [
+      [
+        "classical-texts",
+        9
+      ],
+      [
+        "conjuncts",
+        9
+      ],
+      [
+        "devanagari-pangram",
+        9
+      ],
+      [
+        "mixed-script",
+        9
+      ],
+      [
+        "multiscript",
+        9
+      ],
+      [
+        "ot-features",
+        9
+      ],
+      [
+        "pali-and-sanskrit-words",
+        9
+      ],
+      [
+        "rakar",
+        9
+      ],
+      [
+        "tamil-pangram",
+        9
+      ]
+    ],
+    "missing_for_next": [],
+    "scripts": []
+  }
+}
